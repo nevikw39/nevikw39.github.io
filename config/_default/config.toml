@@ -1,0 +1,33 @@
+baseURL = "https://nevikw39.github.io"
+title = "nevikw39 | 如詩的▢律"
+theme = "hugo-theme-bootstrap"
+copyright = "Copyright © {year} nevikw39. All Rights Reserved."
+
+# Multilingual mode
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+# Pagination
+paginate = 5
+# paginatePath = "page"
+
+# Disqus
+# disqusShortname = "yourdiscussshortname"
+
+# Google analytics
+# googleAnalytics = "UA-123-45"
+
+enableRobotsTXT = true
+
+enableEmoji = true
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"

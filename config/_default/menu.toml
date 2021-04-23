@@ -1,0 +1,5 @@
+[[main]]
+  name = "About"
+  identifier = "about"
+  url = "/about"
+  pre = '<i class="fas fa-fw fa-info-circle"></i>'
