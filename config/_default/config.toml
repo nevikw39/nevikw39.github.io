@@ -1,4 +1,4 @@
-baseURL = "https://nevikw39.github.io"
+baseURL = "https://nevikw39.cf"
 title = "nevikw39 | 如詩的▢律"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © {year} nevikw39. All Rights Reserved."
@@ -12,10 +12,10 @@ paginate = 5
 # paginatePath = "page"
 
 # Disqus
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "nevikw39"
 
 # Google analytics
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-144209773-2"
 
 enableRobotsTXT = true
 

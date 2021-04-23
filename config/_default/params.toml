@@ -45,8 +45,8 @@ customJS = []
 
 # Site verification
 [siteVerification]
-  google = ""
-  bing = ""
+  google = "5cU5Gia3e5HCVOVKPF6LNPL47tsG4_CxU81oidPQaZc"
+  bing = "49648A9FBF95D78C82C0517377262FFA"
 
 [creativeCommons]
   # by = true # Credit must be given to you, the creator.
