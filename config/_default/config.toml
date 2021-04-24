@@ -1,5 +1,5 @@
-baseURL = "https://nevikw39.cf"
-title = "nevikw39 | 如詩的▢律"
+baseURL = "/"
+title = "nevikw39 | 如詩的韻律"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © {year} nevikw39. All Rights Reserved."
 
@@ -21,8 +21,10 @@ enableRobotsTXT = true
 
 enableEmoji = true
 
-[blackfriday]
-  hrefTargetBlank = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

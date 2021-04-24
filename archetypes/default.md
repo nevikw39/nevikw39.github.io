@@ -9,6 +9,7 @@ key_words = []
 series = []
 aliases = []
 images = []
+draft = true
 # featured = true
 # toc = false
 +++
