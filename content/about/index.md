@@ -7,7 +7,7 @@ categories = []
 tags = []
 series = []
 aliases = ["about-me", "contact"]
-images = []
+images = ["images/nevikw39.jps"]
 draft = true
 # featured = true
 # toc = false
@@ -45,6 +45,7 @@ draft = true
 
 我很喜歡尋覓、品嚐各地、各式的拉麵 >///<。
 
+- 豚骨拉麵 博多風龍
 - 麵屋武藏
 - 山嵐拉麵
 - 麵屋秋鳴
@@ -64,3 +65,18 @@ draft = true
 - Air Supply
 - Queen
 - Linkin Park
+
+## 🔗 連結
+
+以下是一些友站 ~~（裝熟）~~ 的連結，歡迎在底下的 Disqus 留言，我會在附上喔，也歡迎大家分享我的 Blog。
+
+- [Bentley](https://bentley.taipei/)
+- [念誠](https://ncchen.cf/)
+- [櫛風](https://shaneliu.studio-alvitr.com/)
+- [雞塊](https://www.jikuai.codes/)
+- [Aann Lin](https://hakkaz.github.io/)
+- [靚](https://ching367436.github.io/)
+- [CSC](https://chensc0392.github.io/)
+- [Howard](https://cchoward.tk/)
+
+And so forth...

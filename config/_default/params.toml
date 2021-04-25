@@ -3,7 +3,7 @@
 # titleSeparator = "|" # Title separator. Default to "-".
 
 description = "你好，歡迎來到「如詩的韻律」！！"
-image = []
+image = ["images/nevikw39.jpg"]
 
 logo = "images/nevikw39.png" # Logo image. Default to "images/logo.webp".
 brand = "nevikw39 | 如詩的韻律"
