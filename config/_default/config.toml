@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "nevikw39 | 如詩的韻律"
+title = "nevikw39 ∥ 如詩的韻律"
 theme = "hugo-theme-bootstrap"
 copyright = "Copyright © {year} nevikw39. All Rights Reserved."
 
@@ -20,6 +20,8 @@ googleAnalytics = "UA-144209773-2"
 enableRobotsTXT = true
 
 enableEmoji = true
+
+hasCJKLanguage = true
 
 [markup]
   [markup.goldmark]
