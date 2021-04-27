@@ -1,7 +1,7 @@
 +++
 author = "nevikw39"
 title = "{{ replace .Name "-" " " | title }}"
-description = "nevikw39 | 如詩的韻律 : "
+description = ""
 date = "{{ .Date }}"
 categories = []
 tags = []
@@ -13,4 +13,5 @@ draft = true
 # featured = true
 # toc = false
 +++
+
 
