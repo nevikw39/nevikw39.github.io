@@ -2,11 +2,11 @@
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "你好，歡迎來到「如詩的韻律」！！"
+description = "各位好，我是來自中一中的 nevikw39 牜攵犬羊，歡迎來到「如詩的韻律」！！"
 image = ["images/nevikw39.jpg"]
 
 logo = "images/nevikw39.png" # Logo image. Default to "images/logo.webp".
-brand = "nevikw39 | 如詩的韻律"
+brand = "nevikw39 ∥ 如詩的韻律"
 # menusPosition = "left" # Menus position: right(default), left or center.
 
 palette = "teal" # Default palette. Optional.
@@ -38,6 +38,8 @@ customJS = []
 
 # tocWordCount = 280 # TOC is displayed only if the post's word count exceeds this value.
 # tocSticky = true # Whether to make TOC stick to top when scrolling. Default to true.
+
+color = "dark"
 
 [archive]
   paginate = 8 # Archive pagination. Default to 100.
@@ -75,5 +77,3 @@ customJS = []
   # small = ".9rem"
   # large = "1.1rem"
   # extraLarge = "1.2rem"
-
-color = "dark"
