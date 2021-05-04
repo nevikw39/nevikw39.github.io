@@ -1,8 +1,9 @@
-+++
-title = "Archives"
-layout = "archive"
-[menu.main]
-  weight = 10
-  pre = '<i class="fas fa-fw fa-file-archive"></i>'
-  url = "archives"
-+++
+---
+layout: archive
+menu:
+  main:
+    pre: <i class="fas fa-fw fa-file-archive"></i>
+    url: archives
+    weight: 10
+title: Archives
+---

@@ -1,18 +1,19 @@
-+++
-author = "nevikw39"
-title = "程式與我的邂逅"
-description = "從小，我就充滿著旺盛的好奇心，尤其對於電腦設備更是如此。由於熾烈的求知慾使然，每當遇到新鮮的事物，我總是迫不及待地想要摸索、窮盡其一切性質與功能。小學二年級註冊電子郵件信箱後，我仔細研究每項設定，在「簽名檔」的選項中認識了 HTML，更因而上網搜尋其語法，寫下我第一個陽春而簡單的網頁。"
-date = "2021-04-27T19:13:53+08:00"
-categories = ["札記"]
-tags = ["程式", "HP CodeWars", "YTP", "IOICamp"]
-key_words = []
-series = ["高中生活"]
-aliases = ["coding"]
-images = []
-draft = true
-# featured = true
-# toc = false
-+++
+---
+aliases: [coding]
+author: nevikw39
+categories: [札記]
+date: "2021-04-27T19:13:53+08:00"
+description: 從小，我就充滿著旺盛的好奇心，尤其對於電腦設備更是如此。由於熾烈的求知慾使然，每當遇到新鮮的事物，我總是迫不及待地想要摸索、窮盡其一切性質與功能。小學二年級註冊電子郵件信箱後，我仔細研究每項設定，在「簽名檔」的選項中認識了
+  HTML，更因而上網搜尋其語法，寫下我第一個陽春而簡單的網頁。
+draft: true
+images: []
+key_words: []
+series: [高中生活]
+tags: [程式, HP CodeWars, YTP, IOICamp]
+title: 程式與我的邂逅
+# featured: true
+# toc: false
+---
 
 從小，我就充滿著旺盛的好奇心，尤其對於電腦設備更是如此。由於熾烈的求知慾使然，每當遇到新鮮的事物，我總是迫不及待地想要摸索、窮盡其一切性質與功能。
 
