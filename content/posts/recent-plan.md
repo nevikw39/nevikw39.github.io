@@ -1,18 +1,18 @@
-+++
-author = "nevikw39"
-title = "近期寫作展望"
-description = "近期關於寫作的一些展望。架設惹 Blog 就是要寫作啊！！學測後耍廢那麼久總該振作惹。過往曾在 Medium 寫過一些文章，現在傾向於在那抒發心得感悟與時事觀點，而這裡則是記錄生活札記與甄試經驗，日後或許還會有一些程式教學。"
-date = "2021-04-25T15:59:52+08:00"
-categories = ["札記"]
-tags = ["展望"]
-key_words = []
-series = []
-aliases = []
-images = []
-draft = true
-# featured = true
-# toc = false
-+++
+---
+aliases: []
+author: nevikw39
+categories: [札記]
+date: "2021-04-25T15:59:52+08:00"
+description: 近期關於寫作的一些展望。架設惹 Blog 就是要寫作啊！！學測後耍廢那麼久總該振作惹。過往曾在 Medium 寫過一些文章，現在傾向於在那抒發心得感悟與時事觀點，而這裡則是記錄生活札記與甄試經驗，日後或許還會有一些程式教學。
+draft: true
+images: []
+key_words: []
+series: []
+tags: [展望]
+title: 近期寫作展望
+# featured: true
+# toc: false
+---
 
 架設惹 Blog 就是要寫作啊！！學測後耍廢那麼久總該振作惹。
 
@@ -25,7 +25,7 @@ draft = true
 - [x] 牧犬羊⁈⁉
 - [x] 近期寫作展望
 - [ ] 程式與我的邂逅
-- [ ] 滿載幸運與驚奇的競賽之旅
+- [ ] 幸運的競賽之旅
 - [ ] 難忘的社團之緣
 - [ ] 淺談 APCS 與升學
 - [ ] 審查資料準備方向

@@ -1,17 +1,18 @@
-+++
-author = "nevikw39"
-title = "關於"
-description = "各位好，我是來自中一中的 nevikw39 牜攵犬羊，歡迎來到「如詩的韻律」！！以下是關於我的一點自我介紹：我是名熱愛程式的高中生 o'_'o，也很喜歡尋覓、品嚐各地、各式的拉麵 >///<。"
-date = "2021-04-22"
-categories = []
-tags = []
-series = []
-aliases = ["about-me", "contact"]
-images = ["images/nevikw39.jpg"]
-draft = true
-# featured = true
-# toc = false
-+++
+---
+aliases: [about-me, contact]
+author: nevikw39
+categories: []
+date: "2021-04-22"
+description: 各位好，我是來自中一中的 nevikw39 牜攵犬羊，歡迎來到「如詩的韻律」！！以下是關於我的一點自我介紹：我是名熱愛程式的高中生 o'_'o，也很喜歡尋覓、品嚐各地、各式的拉麵
+  >///<。
+draft: true
+images: [images/nevikw39.jpg]
+series: []
+tags: []
+title: 關於
+# featured: true
+# toc: false
+---
 
 > 初六 • 象曰：「謙謙君子，卑以自牧。」 <br>
 > --- <cite>《易經 • 謙卦 ䷎》</cite>
@@ -51,9 +52,12 @@ draft = true
 - 山嵐拉麵
 - 麵屋秋鳴
 - 有囍拉麵
+- 小川拉麵
 - 豚箱拉麵
 - 海拉麵
 - 大角拉麵
+- 山下公園
+- 麵本初
 
 至於花月嵐、一蘭等等就算惹ＸＤ。
 
@@ -78,6 +82,6 @@ draft = true
 - [Aann Lin](https://hakkaz.github.io/)
 - [靚](https://ching367436.github.io/)
 - [CSC](https://chensc0392.github.io/)
-- [Howard](https://cchoward.tk/)（我是偷看惹原始碼才懂 \\( \log 100 \\) 這個提示ＸＤ）
+- [Howard](https://howard-60308.github.io/)（我是偷看惹原始碼才懂 \\( \log 100 \\) 這個提示ＸＤ）
 
 And so forth...

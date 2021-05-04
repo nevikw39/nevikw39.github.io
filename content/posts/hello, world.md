@@ -1,17 +1,17 @@
-+++
-title = "hello, world"
-date = 2021-04-22T22:02:45+08:00
-description = "撰寫 Blog 亦無例外，仍以標準、傳統而熟悉的 `hello, world` 來開場吧。我們這個世代，撰寫 Blog 似乎已經成為有些過於老氣之舉，畢竟時下新興多媒體之發達可謂雨後春筍。然而，我依舊深信文字的溫度與力量是無可抹滅的。"
-categories = ["札記"]
-tags = ["hugo", "Static Site Generator", "hugo theme"]
-keywords = ["hexo", "Static Site Generator", "靜態網頁生成器", "Blog", "部落格", "hugo theme", "hugo 主題"]
-series = []
-aliases = []
-images = []
-draft = true
-# featured = true
-# toc = false
-+++
+---
+aliases: []
+categories: [札記]
+date: "2021-04-22T22:02:45+08:00"
+description: 撰寫 Blog 亦無例外，仍以標準、傳統而熟悉的 `hello, world` 來開場吧。我們這個世代，撰寫 Blog 似乎已經成為有些過於老氣之舉，畢竟時下新興多媒體之發達可謂雨後春筍。然而，我依舊深信文字的溫度與力量是無可抹滅的。
+draft: true
+images: []
+keywords: [hexo, Static Site Generator, 靜態網頁生成器, Blog, 部落格, hugo theme, hugo 主題]
+series: []
+tags: [hugo, hugo theme, Static Site Generator]
+title: hello, world
+# featured: true
+# toc: false
+---
 
 > `hello, world`
 

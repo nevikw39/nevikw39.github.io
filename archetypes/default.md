@@ -1,17 +1,17 @@
-+++
-author = "nevikw39"
-title = "{{ replace .Name "-" " " | title }}"
-description = ""
-date = "{{ .Date }}"
-categories = []
-tags = []
-key_words = []
-series = []
-aliases = []
-images = []
-draft = true
-# featured = true
-# toc = false
-+++
+---
+aliases: []
+author: nevikw39
+categories: []
+date: {{ .Date }}
+description: ""
+draft: true
+images: []
+key_words: []
+series: []
+tags: []
+title: {{ replace .Name "-" " " | title }}
+# featured: true
+# toc: false
+---
 
 
