@@ -3,8 +3,7 @@ aliases: [competitive-programming]
 author: nevikw39
 categories: [札記]
 date: "2021-04-27T19:30:22+08:00"
-description: 升上高中不久後就是校內學科能力競賽資訊科的初試，出於嘗試看看的心態我不假思索旋即報名參加。現在回想起來，當時的我不過是個孤陋寡聞的井底之蛙，STL
-  中的容器僅僅概略地認識 vector，連內建的 sort() 都不會使用。想當然爾，我就此名落孫山、鎩羽而歸。
+description: ""
 draft: true
 images: []
 key_words: [程式競賽, 競賽, 競程, Competitive Programming, 全國決賽, 全國賽, NHSPC, 能競, 資訊能競]

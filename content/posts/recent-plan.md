@@ -3,7 +3,7 @@ aliases: []
 author: nevikw39
 categories: [札記]
 date: "2021-04-25T15:59:52+08:00"
-description: 近期關於寫作的一些展望。架設惹 Blog 就是要寫作啊！！學測後耍廢那麼久總該振作惹。過往曾在 Medium 寫過一些文章，現在傾向於在那抒發心得感悟與時事觀點，而這裡則是記錄生活札記與甄試經驗，日後或許還會有一些程式教學。
+description: ""
 draft: true
 images: []
 key_words: []

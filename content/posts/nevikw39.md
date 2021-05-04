@@ -4,8 +4,7 @@ author: nevikw39
 categories:
 - 札記
 date: "2021-04-23T15:30:09+08:00"
-description: 牧犬羊⁈⁉ 嗯嗯，是的沒錯，這就是一篇貨真價實的廢文。擔任社團幹部後，陸陸續續參加一些活動。每次最困擾我的，就是關於自己的綽號。曾經有段時間，我索性使用
-  ``nevikw39''，令美宣也哭笑不得。
+description: ""
 draft: true
 images: []
 key_words:
@@ -15,7 +14,7 @@ tags:
 - nevikw39
 - 牧犬羊
 title: 牧犬羊⁈⁉
-# featured: true
+featured: true
 # toc: false
 ---
 
