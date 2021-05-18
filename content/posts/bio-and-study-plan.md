@@ -2,9 +2,8 @@
 aliases: []
 author: nevikw39
 categories: [申請入學]
-date: 2021-05-05T20:29:30+08:00
+date: 2021-05-15T20:29:30+08:00
 description: ""
-draft: true
 images: []
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 面試, 筆試, 撞期]
 series: []
@@ -35,8 +34,34 @@ draft: true
 
 假如你看到我爛爛的成績還看到這裡並願意瞧瞧我的一點淺見，那真是太感激惹！！
 
-絕大多數的人或許皆是使用 Word 來做文書處理，Mac 使用者還有 Pages 可以考慮。而還有些人是 Adobe InDesign 的愛好者。
+絕大多數的人或許皆是使用 Word 來做文書處理，Mac 使用者還有更好用的 Pages 可以考慮，而還有些人是 Adobe InDesign 的愛好者。
 
 不曉得你有迷有聽過 \\(\\LaTeX\\)？？
 
-\\(\\TeX\\) 是 Donald E. Knuth 教授（對，就是 `KMP` 的那個 Knuth）為惹他的大作 _The Art of Computer Programming_ 我撰寫的排版軟體。
+\\(\\TeX\\) 是 Donald E. Knuth 教授（對，就是 `KMP` 的那個 Knuth）為惹他的大作 _The Art of Computer Programming_ 我撰寫的排版軟體。囊者 Linus 大神為惹 Linux 僅以十天開發出 _git_，而 Knuth 教授同樣因此創造出造福世人的軟體。
+
+由於其精美的排版，特別是對於數學符號及公式優雅的處理，\\(\\TeX\\) 很快成為學界普遍採用的排版軟體。因為 \\(\\TeX\\) 實在太過強大複雜，因此出現許多不同的巨集版本。
+
+### \\(\\LaTeX\\)
+
+ \\(\\LaTeX\\) 是最被廣泛使用的 \\(\\TeX\\) 版本，生活中其實不乏其蹤跡，舉凡 **NPSC** 題目與題解簡報、 **TOI** 題目、酷音輸入法（如果你有用過 Linux 的話應該會知道）的[報告](http://chewing.im/doc/chewing-report.pdf)、C.L.R.S. 四人鼎鼎大名的著作 _Introduction to Algorithms_、Prof. Antti Laaksonen 的 _Competitive Programmer's Handbook_、IOICamp 課程中大多數的簡報，聽說台大社科院的教授的上課簡報也很多是 \\(\\LaTeX\\) beamer。
+
+ \\(\\TeX\\) 算是一種標記式語言，透過一定指令、巨集來控制輸出結果。由於強大的自由開放社群，\\(\\LaTeX\\) 有大量好用的 package，比如 `pgfplots` 能畫出精美的圖形。
+
+ 我是因為高二起管理社團 OJ 才迷上 \\(\\TeX\\)，之後的公民報告、小論文等皆作為我的 \\(\\LaTeX\\) 練習。建議有志於此的同學可以現在就動手嘗試。
+
+ ### 網路上的 \\(\\TeX\\)
+
+ 維基百科可以使用 \\(\\LaTeX\\) 語法來對公式進行排版，各大 OnlineJudge 也都支援 MathJax 等方式呈現數學符號及公式。而 Hugo --- 這個 Blog，則是使用 \\(\\KaTeX\\) 來渲染。
+
+### 使用 \\(\\LaTeX\\) 製作備審的優點
+
+1. 使用預設模板即十分美觀，且能給予 \\(\\TeX\\) 常用者熟悉感。
+2. 可以把不同部分放在不同檔案，分開編輯一次 input。
+3. 多間學校可以共用內容，避免到處複製貼上產生遺漏之虞。
+4. 可以使用 `\\if ... \\else ... \\fi` 針對不同校系進行客製化。
+5. 再結合 **git** 版本控制實作備份或回復修改歷史都輕輕鬆鬆，以 _shell script_ 一次產生所有校系的備審真是方便，搭配各種工具簡直如虎添翼。
+
+---
+
+我的備審 [GitHub repo](https://github.com/nevikw39/college_application)，歡迎大家參觀 o'_'o
