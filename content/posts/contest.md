@@ -4,7 +4,6 @@ author: nevikw39
 categories: [札記]
 date: "2021-04-27T19:30:22+08:00"
 description: ""
-draft: true
 images: []
 key_words: [程式競賽, 競賽, 競程, Competitive Programming, 全國決賽, 全國賽, NHSPC, 能競, 資訊能競]
 series: [高中生活]
