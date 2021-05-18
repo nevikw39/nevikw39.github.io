@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://https://nevikw39.cf//sitemap.xml
+Sitemap: https://nevikw39.cf/sitemap.xml
