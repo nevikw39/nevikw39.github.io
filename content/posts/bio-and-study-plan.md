@@ -9,7 +9,6 @@ key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資�
 series: []
 tags: [LaTeX]
 title: 審查資料準備方向
-draft: true
 # featured: true
 # toc: false
 ---
