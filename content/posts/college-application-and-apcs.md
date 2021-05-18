@@ -2,9 +2,8 @@
 aliases: [college-application, apcs]
 author: nevikw39
 categories: [申請入學]
-date: 2021-05-04T19:44:48+08:00
+date: 2021-05-14T19:44:48+08:00
 description: ""
-draft: true
 images: []
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 面試, 筆試, 甄試, 甄試撞期, 甄試服裝]
 series: []
