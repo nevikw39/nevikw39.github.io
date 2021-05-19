@@ -7,7 +7,7 @@ description: ""
 images: ["images/college_application.png"]
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 面試, 筆試, 撞期]
 series: []
-tags: [LaTeX, 備審]
+tags: [LaTeX, 備審, 成大, 中大, 清大, 交大]
 title: 審查資料準備方向
 # featured: true
 # toc: false
@@ -64,3 +64,5 @@ title: 審查資料準備方向
 ---
 
 我的備審 [GitHub repo](https://github.com/nevikw39/college_application)，歡迎大家參觀 o'_'o
+
+有問題可以發 issue, 在這裡留言或是 Telegram, Instagram 私訊我喔！！
