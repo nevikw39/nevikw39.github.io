@@ -58,7 +58,7 @@ GitHub Pages 可以讓 GitHub 上的 repo 某個 branch 的某個資料夾當作
 
 GitHub Pages 預設有提供 `{{username}}.github.io` 的網域，但這種 subdomain 並不方便進行 Google Analytics 與 SEO 等。
 
-查惹一下 `*.ac`, `.code` 等的價格實在太可怕，窮學生還是乖乖用免費 domain QQ. 我之前是有申請過 `.tk` 的網址，但我突然想起 [念誠的 Blog](https://ncchen.cf)，`.cf` 看起來也是很程式嘛 (CodeForces !?)
+查惹一下 `*.ac`, `.code` 等的價格實在太可怕，窮學生還是乖乖用免費 domain QQ. 我之前是有🈸請過 `.tk` 的網址，但我突然想起 [念誠的 Blog](https://ncchen.cf)，`.cf` 看起來也是很程式嘛 (CodeForces !?)
 
 但我用原本的 Freenom 帳號卻無法註冊 `nevikw39.cf`，索性重辦一個把 `nevikw39.cf`, [nevikw39.tk](https://nevikw39.tk), [nevikw39.ml](https://nevikw39.ml) (Machine Learning !?), [nevikw39.gq](https://nevikw39.gq) （潮到出水欸💦）和 [nevikw39.ga](https://nevikw39.ga) 都註冊走ＸＤ。
 
