@@ -1,17 +1,13 @@
 ---
 aliases: []
 author: nevikw39
-categories:
-- 札記
+categories: [札記]
 date: "2021-05-08T15:30:09+08:00"
 description: ""
-images: []
-key_words:
-- 牜攵犬羊
+images: ["images/nevikw39.png"]
+key_words: [牜攵犬羊]
 series: []
-tags:
-- nevikw39
-- 牧犬羊
+tags: [nevikw39, 牧犬羊]
 title: 牧犬羊⁈⁉
 featured: true
 # toc: false
@@ -31,4 +27,4 @@ featured: true
 
 至於 `nevikw39` 則是小學時亂打的 ID, 此後一直沿用迄今，想要改也沒辦法惹。
 
-附帶一提，我有把頭貼稍作調整，剪裁為「超橢圓」_(Superellipse)_，其方程式為 \\( |x|^e + |y|^e = k \\)。
+附帶一提，我有把頭貼稍作調整，剪裁為「超橢圓」_(Superellipse)_，其方程式為 $$ |x|^e + |y|^e = k $$。
