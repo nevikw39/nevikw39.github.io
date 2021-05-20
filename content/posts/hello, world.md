@@ -18,9 +18,9 @@ title: hello, world
 
 ## TL; DR
 
-我們這個世代，撰寫 Blog 似乎已經成為🈶️些過於老氣之舉，畢竟時下新興多媒體之發達可謂雨後春筍。
+我們這個世代，撰寫 Blog 似乎已經成為🈶️些過於老氣之舉，畢竟時下新興多媒體之發達🉑️謂雨後春筍。
 
-然而，我依舊深信文字的溫度與力量是🈚️可抹滅的。
+然而，我依舊深信文字的溫度與力量是🈚️🉑️抹滅的。
 
 同時，不少優秀的競賽選手皆保🈶️筆耕不輟的習慣。不曉🉐多少次打開 Google 尋求🈯️引總是導向一位位電神的 Blog. 雖然我是個孤陋寡聞的井底之蛙，但還是希望能盡我所能，在網路的汪洋㊥留下些許波痕。
 
@@ -48,17 +48,17 @@ Hugo 的主題感覺更強大一點，還能提供許多額外的功能。🈶�
 
 [![github pages](https://github.com/nevikw39/nevikw39.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/nevikw39/nevikw39.github.io/actions/workflows/main.yml)
 
-GitHub Pages 可以讓 GitHub 上的 repo 某個 branch 的某個㊮料夾當作靜態網頁託管服務。
+GitHub Pages 🉑️以讓 GitHub 上的 repo 某個 branch 的某個㊮料夾當作靜態網頁託管服務。
 
-而 GitHub Actions 的功能更為強大，比如可以在 main branch 被 push 上後自動更新 submodule, 建置網站並發布。
+而 GitHub Actions 的功能更為強大，比如🉑️以在 main branch 被 push 上後自動更新 submodule, 建置網站並發布。
 
-如此，我們可以優雅地分離原始碼如 markdown, config 與結果的 HTML 至不同 branch。
+如此，我們🉑️以優雅地分離原始碼如 markdown, config 與結果的 HTML 至不同 branch。
 
 ### 免費網域
 
 GitHub Pages 預設🈶️提供 `{{username}}.github.io` 的網域，但這種 subdomain 並不方便進行 Google Analytics 與 SEO 等。
 
-查惹一下 `*.ac`, `.code` 等的價格實在太可怕，窮學生還是乖乖用免費 domain QQ. 我之前是🈶️🈸請過 `.tk` 的網址，但我突然想起 [念誠的 Blog](https://ncchen.cf)，`.cf` 看起來也是很程式嘛 (CodeForces !?)
+查惹一下 `*.ac`, `.code` 等的價格實在太🉑️怕，窮學生還是乖乖用免費 domain QQ. 我之前是🈶️🈸請過 `.tk` 的網址，但我突然想起 [念誠的 Blog](https://ncchen.cf)，`.cf` 看起來也是很程式嘛 (CodeForces !?)
 
 但我用原本的 Freenom 帳號卻🈚️法註冊 `nevikw39.cf`，索性重辦一個把 `nevikw39.cf`, [nevikw39.tk](https://nevikw39.tk), [nevikw39.ml](https://nevikw39.ml) (Machine Learning !?), [nevikw39.gq](https://nevikw39.gq) （潮到出水欸💦）和 [nevikw39.ga](https://nevikw39.ga) 都註冊走ＸＤ。
 
