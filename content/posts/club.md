@@ -5,7 +5,7 @@ categories: [札記]
 date: "2021-05-13T22:13:52+08:00"
 description: ""
 images: []
-key_words: [電研㊓, 一㊥電研, 串電]
+key_words: [電研社, 一中電研, 串電]
 series: [高㊥生活]
 tags: [程式, 電研, ㊓團, 伺服器]
 title: 偶然的㊓團之緣

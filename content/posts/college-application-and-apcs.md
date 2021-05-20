@@ -7,7 +7,7 @@ description: ""
 images: []
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 甄試撞期, 甄試服裝, ㊥大]
 series: []
-tags: [APCS, 備審, 面試, 筆試, 成大, ㊥大, 清大, 交大]
+tags: [APCS, 備審, 面試, 筆試, 成大, ㊥央, 清大, 交大]
 title: APCS 校系🈸請入學經驗分享
 featured: true
 # toc: false
