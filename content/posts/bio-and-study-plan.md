@@ -37,7 +37,7 @@ title: 審查㊮料準備方向
 
 不曉🉐你🈶️迷🈶️聽過 \\(\\LaTeX\\)？？
 
-\\(\\TeX\\) 是 Donald E. Knuth 教授（對，就是 `KMP` 的那個 Knuth）為惹他的大作 _The Art of Computer Programming_ 我撰寫的排版軟體。囊者 Linus 大神為惹 Linux 僅以十天開發出 _git_，而 Knuth 教授同樣因此創造出造福世人的軟體。
+\\(\\TeX\\) 是 Donald E. Knuth 教授（對，就是 `KMP` 的那個 Knuth）為惹他的大作 _The Art of Computer Programming_ 我撰寫的排版軟體。曩者 Linus 大神為惹 Linux 僅以十天開發出 _git_，而 Knuth 教授同樣因此創造出造福世人的軟體。
 
 由於其精美的排版，㊕別是對於數學符號及公式優雅的處理，\\(\\TeX\\) 很快成為學界普遍採用的排版軟體。因為 \\(\\TeX\\) 實在太過強大複雜，因此出現許多不同的巨集版本。
 
