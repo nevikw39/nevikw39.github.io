@@ -4,7 +4,7 @@ author: nevikw39
 categories: [🈸請入學]
 date: 2021-05-15T20:29:30+08:00
 description: ""
-images: ["images/college_application.png"]
+images: ["images/college_application.jpg"]
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 面試, 筆試, 撞期, ㊥大]
 series: []
 tags: [LaTeX, 備審, 成大, ㊥央, 清大, 交大]
