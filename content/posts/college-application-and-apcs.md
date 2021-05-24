@@ -41,6 +41,8 @@ featured: true
 
 ## 撞期
 
+[{{< figure src="/images/i-want-it-all.jfif" title="" >}}](https://open.spotify.com/track/1MX6kqZ8FOht5UnQuPl6Jj?si=930bec753917430d)
+
 我一階通過的校系㊥，[成大](../ncku)與[㊥央](../ncu)的甄試撞期。經過不少努力，詳細請見兩校甄試心🉐，最終很幸運地🉐到圓滿的結局。不過事實上，清交對此🈶比較齊全的規範。
 
 ## 服裝
