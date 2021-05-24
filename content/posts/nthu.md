@@ -3,7 +3,7 @@ aliases: []
 author: nevikw39
 categories: [🈸請入學]
 date: 2021-05-18T10:23:32+08:00
-description: ""
+description: "以下是我對於清華大學資訊工程學系 APCS 組第二階段甄試的一些心得。 清大的面試可以使用五分鐘自我介紹簡報，接著是五分鐘教授問答。 第二關則是專業白板題，同樣是十分鐘。"
 images: ["images/nthu.jpg"]
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 筆試, 撞期]
 series: [甄試心🉐]
