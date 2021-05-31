@@ -1,7 +1,7 @@
 ---
 aliases: [bio-and-std-plan]
 author: nevikw39
-categories: [🈸請入學]
+categories: [申請入學]
 date: 2021-05-20T20:29:30+08:00
 description: ""
 images: ["images/bio-and-std-plan.jpg"]
