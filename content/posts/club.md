@@ -2,7 +2,7 @@
 aliases: [circ, tcirc, group]
 author: nevikw39
 categories: [札記]
-date: "2021-05-13T22:13:52+08:00"
+date: "2021-04-06T22:13:52+08:00"
 description: ""
 images: []
 key_words: [電研社, 一中電研, 串電]

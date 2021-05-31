@@ -9,7 +9,6 @@ key_words: []
 series: []
 tags: [名店拉麵]
 title: 七面鳥
-draft: true
 # featured: true
 # toc: false
 ---

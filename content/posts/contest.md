@@ -2,7 +2,7 @@
 aliases: [competitive-programming]
 author: nevikw39
 categories: [札記]
-date: "2021-05-12T19:30:22+08:00"
+date: "2021-04-05T19:30:22+08:00"
 description: ""
 images: []
 key_words: [程式競賽, 競賽, 競程, Competitive Programming, 全國決賽, 全國賽, NHSPC, 能競, 資訊能競]
