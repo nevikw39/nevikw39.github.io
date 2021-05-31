@@ -22,7 +22,7 @@ title: hello, world
 
 然而，我依舊深信文字的溫度與力量是🈚️🉑️抹滅的。
 
-同時，不少優秀的競賽選手皆保🈶️筆耕不輟的習慣。不曉🉐多少次打開 Google 尋求🈯️引總是導向一位位電神的 Blog. 雖然我是個孤陋寡聞的井底之蛙，但還是希望能盡我所能，在網路的汪洋㊥留下些許波痕。
+同時，不少優秀的競賽選手皆保🈶️筆耕不輟的習慣。不曉🉐多少次打開 Google 尋求🈯️引總是導向一位位電神的 Blog. 雖然我是個孤陋寡聞的井底之蛙，但還是希望能盡我所能，在網路的汪洋中留下些許波痕。
 
 ## 輕量級 Blog
 
@@ -30,9 +30,9 @@ title: hello, world
 
 ### Static Site Generator
 
-常見的工具包括：Jekyll, Hexo 與 **Hugo** 等，分別是以 `Ruby`, `Node.js` 及 `Go` 撰寫。其㊥，Jekyll 獲🉐 GitHub 較原生的支援，不過我不甚熟悉；而臺灣🈶️許多人採用 Hexo，因為其存在豐富的㊥文㊮訊、多樣的主題及插件。
+常見的工具包括：Jekyll, Hexo 與 **Hugo** 等，分別是以 `Ruby`, `Node.js` 及 `Go` 撰寫。其中，Jekyll 獲🉐 GitHub 較原生的支援，不過我不甚熟悉；而臺灣🈶️許多人採用 Hexo，因為其存在豐富的中文資訊、多樣的主題及插件。
 
-然而，Hexo 的致命缺點在於 `Node.js` 作為動態語言其效能實在🈚️法恭維。在偵錯測試的過程當㊥，緩慢的編譯速度著實令人🈚️法忍受。
+然而，Hexo 的致命缺點在於 `Node.js` 作為動態語言其效能實在🈚️法恭維。在偵錯測試的過程當中，緩慢的編譯速度著實令人🈚️法忍受。
 
 🉐益於毫秒級的速度，**Hugo** 提供近乎 _WYSIWYG_（所見即所🉐）的體驗。
 
@@ -40,7 +40,7 @@ title: hello, world
 
 ### Hugo 主題
 
-Hugo 的主題感覺更強大一點，還能提供許多額外的功能。🈶️點選擇障礙的我，起初看上 _Iris_ 主題，不單由於簡潔的版面，也🈶️部分出自於對希臘神話㊥ _Iris_ 諸神的信使之遐想（[Iridescent](https://open.spotify.com/track/69ZEgPX0hxWXJIqkTlYz41?si=m67f1pkEQl2fZbp0w5e_Cw) --- 真是個美麗的詞彙）。而 GitHub 上獲🉐最多 Star 的 _Coder_ 主題卻看似單調且🈚️法修改顏色，另個 _m10c_ 又稍嫌簡陋。
+Hugo 的主題感覺更強大一點，還能提供許多額外的功能。🈶️點選擇障礙的我，起初看上 _Iris_ 主題，不單由於簡潔的版面，也🈶️部分出自於對希臘神話中 _Iris_ 諸神的信使之遐想（[Iridescent](https://open.spotify.com/track/69ZEgPX0hxWXJIqkTlYz41?si=m67f1pkEQl2fZbp0w5e_Cw) --- 真是個美麗的詞彙）。而 GitHub 上獲🉐最多 Star 的 _Coder_ 主題卻看似單調且🈚️法修改顏色，另個 _m10c_ 又稍嫌簡陋。
 
 最終，我找到 [Hugo Bootstrap Theme](https://github.com/razonyang/hugo-theme-bootstrap)，不但提供完整的暗色主題、美觀的佈局、多樣的功能，還補足 Hugo 的弱項－搜尋。
 
@@ -48,7 +48,7 @@ Hugo 的主題感覺更強大一點，還能提供許多額外的功能。🈶�
 
 [![github pages](https://github.com/nevikw39/nevikw39.github.io/actions/workflows/main.yml/badge.svg)](https://github.com/nevikw39/nevikw39.github.io/actions/workflows/main.yml)
 
-GitHub Pages 🉑️以讓 GitHub 上的 repo 某個 branch 的某個㊮料夾當作靜態網頁託管服務。
+GitHub Pages 🉑️以讓 GitHub 上的 repo 某個 branch 的某個資料夾當作靜態網頁託管服務。
 
 而 GitHub Actions 的功能更為強大，比如🉑️以在 main branch 被 push 上後自動更新 submodule, 建置網站並發布。
 
