@@ -29,7 +29,7 @@ title: 程式與我的邂逅
 
 ### HP CodeWars
 
-我第一次參加的大型程式競賽是 HP 的 [CodeWars](https://www.hpcodewars.com.tw/)，早在 ZeroJudge 上即看過其題目。HPC 的時間點在上學期初、能競複賽尚未展開之時，在南港世貿二館盛大舉行，我與 社團的朋友亮軒、廷翰組隊報名，首次體驗典型程式競賽文化 ------ T-shirt 與美食（我們不小心拿太多還🉐帶回家ＸＤ）。至於比賽結果，我們拿到 \\(180\\) 分並列第十名。
+我第一次參加的大型程式競賽是 HP 的 [CodeWars](https://www.hpcodewars.com.tw/)，早在 ZeroJudge 上即看過其題目。HPC 的時間點在上學期初、能競複賽尚未展開之時，在南港世貿二館盛大舉行，我與社團的朋友亮軒、廷翰組隊報名，首次體驗典型程式競賽文化 ------ T-shirt 與美食（我們不小心拿太多還🉐帶回家ＸＤ）。至於比賽結果，我們拿到 \\(180\\) 分並列第十名。
 
 今年 (2020) 游於武漢肺炎活動停辦，但官網被改🉐天翻地覆，歷年題目、官解、名次及作答狀況都消失惹，僅能在 [Wayback Machine](https://web.archive.org/web/20180904232406/http://hpcodewars.com.tw/index.php?page=pastevents) 上拾🉐蛛絲馬跡弔古興嘆，甚是🉑️惜。
 

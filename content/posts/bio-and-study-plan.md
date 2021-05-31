@@ -43,11 +43,11 @@ title: 審查資料準備方向
 
 ### \\(\\LaTeX\\)
 
- \\(\\LaTeX\\) 是最被廣泛使用的 \\(\\TeX\\) 版本，生活中其實不乏其蹤跡，舉凡 **NPSC** 題目與題解簡報、 **TOI** 題目、酷音輸入法（如果你🈶️用過 Linux 的話應該會知道）的[報告](http://chewing.im/doc/chewing-report.pdf)、C.L.R.S. 四人鼎鼎大名的著作 _Introduction to Algorithms_、Prof. Antti Laaksonen 的 _Competitive Programmer's Handbook_、IOICamp 課程中央多數的簡報，聽說台大 社科院的教授的上課簡報也很多是 \\(\\LaTeX\\) beamer。
+ \\(\\LaTeX\\) 是最被廣泛使用的 \\(\\TeX\\) 版本，生活中其實不乏其蹤跡，舉凡 **NPSC** 題目與題解簡報、 **TOI** 題目、酷音輸入法（如果你🈶️用過 Linux 的話應該會知道）的[報告](http://chewing.im/doc/chewing-report.pdf)、C.L.R.S. 四人鼎鼎大名的著作 _Introduction to Algorithms_、Prof. Antti Laaksonen 的 _Competitive Programmer's Handbook_、IOICamp 課程中央多數的簡報，聽說台大社科院的教授的上課簡報也很多是 \\(\\LaTeX\\) beamer。
 
- \\(\\TeX\\) 算是一種標記式語言，透過一定🈯️令、巨集來控制輸出結果。由於強大的自由開放 社群，\\(\\LaTeX\\) 🈶️大量好用的 package，比如 `pgfplots` 能畫出精美的圖形。
+ \\(\\TeX\\) 算是一種標記式語言，透過一定🈯️令、巨集來控制輸出結果。由於強大的自由開放社群，\\(\\LaTeX\\) 🈶️大量好用的 package，比如 `pgfplots` 能畫出精美的圖形。
 
- 我是因為高二起管理 社團 OJ 才迷上 \\(\\TeX\\)，之後的公民報告、小論文等皆作為我的 \\(\\LaTeX\\) 練習。建議🈶️志於此的同學🉑️以現在就動手嘗試。
+ 我是因為高二起管理社團 OJ 才迷上 \\(\\TeX\\)，之後的公民報告、小論文等皆作為我的 \\(\\LaTeX\\) 練習。建議🈶️志於此的同學🉑️以現在就動手嘗試。
 
  ### 網路上的 \\(\\TeX\\)
 
