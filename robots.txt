@@ -1,4 +1,8 @@
 User-agent: *
+
+Disallow: 404.html
+Disallow: CNAME
+Disallow: .nojekyll
 Allow: /
 
 Sitemap: https://nevikw39.cf/sitemap.xml
