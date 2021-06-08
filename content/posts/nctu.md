@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [nycu]
 author: nevikw39
 categories: [申請入學]
 date: 2021-04-21T13:48:57+08:00
