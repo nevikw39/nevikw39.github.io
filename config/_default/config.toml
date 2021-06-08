@@ -23,6 +23,8 @@ enableEmoji = true
 
 hasCJKLanguage = true
 
+enableGitInfo = true
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
