@@ -1,3 +1,8 @@
 figure {
     text-align: center;
 }
+
+iframe[src~="ads"] {
+    display: none;
+    visibility: hidden;
+}
