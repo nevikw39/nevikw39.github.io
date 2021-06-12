@@ -2,7 +2,7 @@ figure {
     text-align: center;
 }
 
-iframe[src*="ads"], #disqus_thread > iframe:nth-child(1) {
+iframe[src*="ads"] {
     display: none;
     visibility: hidden;
 }
