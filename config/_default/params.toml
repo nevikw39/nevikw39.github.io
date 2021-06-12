@@ -33,8 +33,8 @@ math = true # Enable math globally.
 # seriesCount = 10 # The number of series shown in sidebar.
 
 # Custom CSS and JS
-customCSS = []
-customJS = []
+customCSS = ["assets/csss/custom.csss"]
+customJS = ["assets/js/custom.js"]
 
 # tocWordCount = 280 # TOC is displayed only if the post's word count exceeds this value.
 # tocSticky = true # Whether to make TOC stick to top when scrolling. Default to true.
