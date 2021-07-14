@@ -1,4 +1,4 @@
-mainSections = ["posts", "ramen"] # Default to ["posts"].
+mainSections = ["posts", "ramen", "programming"] # Default to ["posts"].
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
