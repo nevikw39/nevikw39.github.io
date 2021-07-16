@@ -6,7 +6,7 @@ description: ""
 images: []
 keywords: [hexo, Static Site Generator, 靜態網頁生成器, Blog, 部落格, hugo theme, hugo 主題]
 series: []
-tags: [hugo, hugo theme, Static Site Generator]
+tags: [hugo, hugo theme, Static Site Generator, "hello, world"]
 title: hello, world
 # featured: true
 # toc: false
