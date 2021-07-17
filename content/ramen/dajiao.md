@@ -9,7 +9,7 @@ key_words: []
 series: []
 tags: [名店拉麵]
 title: 大角拉麵
-# featured: true
+featured: true
 # toc: false
 ---
 
