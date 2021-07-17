@@ -25,12 +25,12 @@ math = true # Enable math globally.
 
 # poweredBy = false # Whether to show powered by.
 
-# featuredPostCount = 10 # The number of featured posts shown in sidebar.
-# recentPostCount = 10 # The number of recent posts shown in sidebar.
-# relatedPostCount = 10 # The number of related posts.
-# categoryCount = 10 # The number of categories shown in sidebar.
-# tagCount = 10 # The number of tags shown in sidebar.
-# seriesCount = 10 # The number of series shown in sidebar.
+featuredPostCount = 10 # The number of featured posts shown in sidebar.
+recentPostCount = 10 # The number of recent posts shown in sidebar.
+relatedPostCount = 10 # The number of related posts.
+categoryCount = 10 # The number of categories shown in sidebar.
+tagCount = 10 # The number of tags shown in sidebar.
+seriesCount = 10 # The number of series shown in sidebar.
 
 # Custom CSS and JS
 customCSS = []
@@ -42,7 +42,7 @@ customJS = []
 color = "dark"
 
 [archive]
-  paginate = 8 # Archive pagination. Default to 100.
+  # paginate = 8 # Archive pagination. Default to 100.
   # dateFormat = "01-02" # Archive date format. Default to "Jan 2".
 
 # Site verification
