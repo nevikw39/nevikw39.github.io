@@ -25,11 +25,11 @@ math = true # Enable math globally.
 
 # poweredBy = false # Whether to show powered by.
 
-featuredPostCount = 10 # The number of featured posts shown in sidebar.
+featuredPostCount = 50 # The number of featured posts shown in sidebar.
 recentPostCount = 10 # The number of recent posts shown in sidebar.
-relatedPostCount = 10 # The number of related posts.
+relatedPostCount = 5 # The number of related posts.
 categoryCount = 10 # The number of categories shown in sidebar.
-tagCount = 10 # The number of tags shown in sidebar.
+tagCount = 50 # The number of tags shown in sidebar.
 seriesCount = 10 # The number of series shown in sidebar.
 
 # Custom CSS and JS
@@ -57,7 +57,7 @@ color = "dark"
   # sa = true # Adaptations must be shared under the same terms.
 
 [search]
-  paginate = 5 # Pagination. Default to 10.
+  # paginate = 5 # Pagination. Default to 10.
   # resultContentWordCount = 240 # The maximum word count of result content for displaying.
   # Fuse.js options. See https://fusejs.io/api/options.html.
   [search.fuse]
