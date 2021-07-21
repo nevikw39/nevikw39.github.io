@@ -9,7 +9,6 @@ key_words: []
 series: [C++ 入門]
 tags: [C++, VS Code]
 title: "[C++ 入門] 0.2 準備開發環境"
-draft: true
 # featured: true
 # toc: false
 ---
@@ -30,7 +29,7 @@ draft: true
 
 ## Linux
 
-如果你用 Linux 應該很電吧，舊根據自己 distro 的 package manager 安裝好 `g++`, `gdb`; VS Code 的設定非常簡單，打開一個資料夾、新增一個 `.cpp`，它應該會問你要不要安裝 _C/C++_ 套件, 按下 F5 全部都用預設選項即可，記得 build task 選 `g++`。
+如果你用 Linux 應該很電⚡吧，就根據自己 distro 的 package manager 安裝好 `g++`, `gdb`; VS Code 的設定非常簡單，打開一個資料夾、新增一個 `.cpp`，它應該會問你要不要安裝 _C/C++_ 套件, 按下 F5 全部都用預設選項即可，記得 build task 選 `g++`。
 
 ## macOS
 
