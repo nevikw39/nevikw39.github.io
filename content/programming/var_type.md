@@ -7,9 +7,8 @@ description: ""
 images: [images/float.jpg]
 key_words: []
 series: [C++ 入門]
-tags: [C++]
+tags: [C++, variable]
 title: "[C++ 入門] 1.2 基本變數型別"
-draft: true
 # featured: true
 # toc: false
 ---
@@ -88,6 +87,9 @@ cout << 87 * 1.0 / 69 << '\n';
 
 ### 類題演練
 
+攝氏溫度 ℃ 與華氏溫度 ℉ 的轉換，剛好各一題。
+
+- [ZeroJudge e343](https://zerojudge.tw/ShowProblem?problemid=e343)
 - [ZeroJudge d051](https://zerojudge.tw/ShowProblem?problemid=d051)
 - [GreenJudge a008](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a008)
 
