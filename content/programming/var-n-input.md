@@ -7,14 +7,13 @@ description: ""
 images: []
 key_words: []
 series: [C++ 入門]
-tags: [C++]
+tags: [C++, variable, operator, IO]
 title: "[C++ 入門] 1.1 變數與輸入"
-draft: true
 # featured: true
 # toc: false
 ---
 
-## 變數 · 前傳
+## 概述變數與運算
 
 程式在執行過程中，一如我們平時計算往往需要計算紙，總是會需要保存一下運算的過程與結果。當我們宣告一個變數，電腦就會在記憶體當中分配一個空間給予我們使用。今天我們的重點在輸入，因此先簡單介紹整數型別的變數。
 
@@ -66,10 +65,14 @@ int main()
 
 ### 類題演練
 
+族惹經典的 \\(A + B)\\ 西元民國紀年轉換各一題，另外有幾題與時間相關可以善用 `%` 運算子。
+
 - [ZeroJudge a002](https://zerojudge.tw/ShowProblem?problemid=a002)
 - [ZeroJudge d049](https://zerojudge.tw/ShowProblem?problemid=d049)
 - [ZeroJudge d050](https://zerojudge.tw/ShowProblem?problemid=d050)
 - [ZeroJudge d060](https://zerojudge.tw/ShowProblem?problemid=d060)
+- [ZeroJudge d073](https://zerojudge.tw/ShowProblem?problemid=d073)
+- [ZeroJudge d827](https://zerojudge.tw/ShowProblem?problemid=d827)
 - [GreenJudge a005](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a005)
 - [GreenJudge a006](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a006)
 - [GreenJudge a007](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a007)
