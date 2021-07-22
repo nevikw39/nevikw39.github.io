@@ -7,7 +7,7 @@ description: ""
 images: []
 key_words: []
 series: [C++ 入門]
-tags: [C++, variable, operator, IO]
+tags: [C++, variable, operator, IO, debugger]
 title: "[C++ 入門] 1.1 變數與輸入"
 # featured: true
 # toc: false
@@ -65,7 +65,7 @@ int main()
 
 ### 類題演練
 
-族惹經典的 \\(A + B)\\ 西元民國紀年轉換各一題，另外有幾題與時間相關可以善用 `%` 運算子。
+除惹經典的 \\(A + B\\) 西元民國紀年轉換各一題，另外有幾題與時間相關可以善用 `%` 運算子。
 
 - [ZeroJudge a002](https://zerojudge.tw/ShowProblem?problemid=a002)
 - [ZeroJudge d049](https://zerojudge.tw/ShowProblem?problemid=d049)
@@ -76,3 +76,11 @@ int main()
 - [GreenJudge a005](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a005)
 - [GreenJudge a006](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a006)
 - [GreenJudge a007](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a007)
+
+## Debugger 的使用
+
+我們每次按下 F5 VS Code 底下的 status bar 都會變色，其實是執行所謂的 **Debugger**, 可是究竟要怎麼用？？試著在 VS Code 中對上面 `1.1-2_div_n_mod.cpp` 的第十行編號的前面按一下，前面應該會出現一個紅點 _(break point)_, 這時再按下 F5 輸入兩個整數並 Enter, 程式就會停下來惹。這時看到左上會有 VS Code 自動選取的一些變數 _Variables_, 雙擊可以直接修改其值；左中是 _Watch_ 雙擊可以輸入欲監看的表達式如 `a + b` 等，右下則是 _Call Stack_. 此時再按下 F5 程式又會繼徐執行下去。
+
+{{<alert "動手手試看看，輸入 87 0 並在中斷點把除數的值改掉。" info>}}
+
+當然我們不可能每次都手動檢查除數是否為零，至於如何讓程式自己檢查？？且待下下回分解。
