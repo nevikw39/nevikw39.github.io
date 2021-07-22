@@ -153,6 +153,10 @@ int main()
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-2_switch.cpp" >}}
 程式碼的可讀性好惹一些，只是注意每個 **case** 結束後如果沒有 `break;` 預設會進入下個 **case**. 另外，C/C++ 的 **switch-case** 僅支援整數包含字元。乍看之下用 **switch-case** 程式碼似乎比較冗長，但理論上執行時，**if-else** 在最糟情況下會遍歷 \\(n\\) 個判斷，時間複雜度是 \\(O(n)\\) 線性的，但 **switch-case** 編譯時可能使用 _jump table_, _lookup table_; 達到 \\(O(\log n)\\) 對數的甚至 \\(O(1)\\) 常數的時間複雜度。當然大部分情況下差異微乎其微，只是 **switch-case** 還有許多妙用。
 
+### 類題演練
+
+- [TCIRC Judge c005](https://judge.tcirc.tw/ShowProblem?problemid=c005)
+
 另外 gcc 有提供 _case range_ 可以這樣用：
 ```cpp
 switch (n)
