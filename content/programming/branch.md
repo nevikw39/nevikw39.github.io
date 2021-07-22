@@ -19,7 +19,7 @@ title: "[C++ 入門] 2. 程序流程：if-else 條件判斷 & switch-case 分支
 
 還記得1.1 的[範例](https://gist.github.com/nevikw39/7cd9f2d7f536e4f78d4d0fcddb0fbb80#file-1-1-2_div_n_mod-cpp)嗎？？我們寫惹個程式，允許使用者輸入兩個整數，而我們輸出兩者相除之商與餘數。然而，如果今天有人很 87 輸入`87 0`, 那麼會發生什麼事？？
 {{<alert "動手手試看看，讓電腦除以 0 會怎樣？？" info>}}
-電腦會爆炸嗎？？顯然不會。如果你在 VS Code 按下 F5 偵錯，這時程式回停下來告訴你 **Exception has occurred.** _Arithmetic exception_. 如果直接在終端機執行，會輸出 _floating point exception_ 之類的。總之，程式不正常得提前結束惹。
+電腦會爆炸嗎？？顯然不會。如果你在 VS Code 按下 <kbd>F5</kbd> 偵錯，這時程式回停下來告訴你 **Exception has occurred.** _Arithmetic exception_. 如果直接在終端機執行，會輸出 _floating point exception_ 之類的。總之，程式不正常得提前結束惹。
 
 這邊我們稍微補充一下，平常我們 `main()` 函式都 `return 0;` 代表正常結束，但這次會回傳 `136`, 確認的方法是在終端機輸入 `echo $?`. 原因是當我們的程式發生例外而不處理時，會觸發若干 _Signal_, 像是執行到一半按下 <kbd>⌃Ctrl</kbd> + <kbd>C</kbd> 會觸發 _SIGINT (2)_ 使程式中斷、程式被 **abort** （比如 **assert** 沒過）會觸發 _SIGABRT (6)_, 錯誤地存取記憶體會觸發 _SIGSEGV (11)_, 而本例致命的算術運算錯誤觸發 _SIGFPE (8)_. 這些都是日後我們常遇到的錯誤。發生例外回傳值就不為 `0`, 而會是 `128 + (n)`. 其它的 _exit code_ 包括 `126` 權限不足、`127` _command not found_, ...
 
@@ -45,7 +45,7 @@ else
 ```
 如果 `condition` 非零，就會執行 `if` 大括弧的內容，否則執行 `else` 大括弧的內容，最後繼續執行下去。我們再次改進我們的除法計算器：
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-1_if_else.cpp" >}}
-這次再有 87 輸入 `87 0`, 就會告訴他除數不可為零惹。當然我們的 `condition` 不見得只是一個關係運算式，還可以結合前一篇介紹的邏輯運算子等等。我們可以一樣在第十行前方點一下設置中斷點，這次不要急著按 F5 繼續執行，改按 <kbd>F10</kbd> _Step Over_ 逐步執行，看看下一行會跳至何處。
+這次再有 87 輸入 `87 0`, 就會告訴他除數不可為零惹。當然我們的 `condition` 不見得只是一個關係運算式，還可以結合前一篇介紹的邏輯運算子等等。我們可以一樣在第十行前方點一下設置中斷點，這次不要急著按 <kbd>F5</kbd> 繼續執行，改按 <kbd>F10</kbd> _Step Over_ 逐步執行，看看下一行會跳至何處。
 
 ### 類題演練
 

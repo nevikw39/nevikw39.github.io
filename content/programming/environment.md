@@ -29,7 +29,7 @@ title: "[C++ 入門] 0.2 準備開發環境"
 
 ## Linux
 
-如果你用 Linux 應該很電⚡吧，就根據自己 distro 的 package manager 安裝好 `g++`, `gdb`; VS Code 的設定非常簡單，打開一個資料夾、新增一個 `.cpp`，它應該會問你要不要安裝 _C/C++_ 套件, 按下 F5 全部都用預設選項即可，記得 build task 選 `g++`。
+如果你用 Linux 應該很電⚡吧，就根據自己 distro 的 package manager 安裝好 `g++`, `gdb`; VS Code 的設定非常簡單，打開一個資料夾、新增一個 `.cpp`，它應該會問你要不要安裝 _C/C++_ 套件, 按下 <kbd>F5</kbd> 全部都用預設選項即可，記得 build task 選 `g++`。
 
 ## macOS
 
@@ -50,8 +50,8 @@ title: "[C++ 入門] 0.2 準備開發環境"
     },
     ```
     貼完之後可以按下 <kbd>⇧ Shift</kbd> + <kbd>⌥ Opt</kbd> + <kbd>F</kbd> 自動排版美觀一下。然後點選 _Menu Bar_ 的 _Terminal_ > _Run Tasks..._, 選擇 **Open Terminal**, 這時應該會彈出視窗要求給予權限，允許之後會跳出一個 Terminal.
-3. 按下 F5 （記得 Fn 鍵），選擇 **clang++ build and debug active file**, 請在這時開啟的 `launch.json` 找到 **"externalConsole": false,** 並把 _false_ 改為 _true_
-4. 大功告成，以後只要按下 F5 即可編譯並偵錯！！
+3. 按下 <kbd>F5</kbd> （記得 Fn 鍵），選擇 **clang++ build and debug active file**, 請在這時開啟的 `launch.json` 找到 **"externalConsole": false,** 並把 _false_ 改為 _true_
+4. 大功告成，以後只要按下 <kbd>F5</kbd> 即可編譯並偵錯！！
 
 假若搞不太懂或遇到什麼困難，這裡分別是參考的 [tasks.json](https://gist.github.com/nevikw39/7cd9f2d7f536e4f78d4d0fcddb0fbb80#file-0-2-0_macos_tasks-json), [launch.json](https://gist.github.com/nevikw39/7cd9f2d7f536e4f78d4d0fcddb0fbb80#file-0-2-1_macos_launch-json).
 
@@ -65,7 +65,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install g++ gdb
 ```
-會要你輸入剛才設定的 Linux 專用密碼。接著參照這篇[文章](https://code.visualstudio.com/docs/cpp/config-wsl)，之後就跟上面 Linux 的步驟差不多，打開 Windows 的 VS Code, 安裝 **Remote - WSL** 套件，開啟一個資料夾、新增一個 `.cpp`，它應該會問你要不要安裝 _C/C++_ 套件, 按下 F5 全部都用預設選項即可，記得 build task 選 `g++`。
+會要你輸入剛才設定的 Linux 專用密碼。接著參照這篇[文章](https://code.visualstudio.com/docs/cpp/config-wsl)，之後就跟上面 Linux 的步驟差不多，打開 Windows 的 VS Code, 安裝 **Remote - WSL** 套件，開啟一個資料夾、新增一個 `.cpp`，它應該會問你要不要安裝 _C/C++_ 套件, 按下 <kbd>F5</kbd> 全部都用預設選項即可，記得 build task 選 `g++`。
 
 ---
 

@@ -21,7 +21,7 @@ title: "[C++ 入門] 1.1 變數與輸入"
 
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "1.1-0_int.cpp" >}}
 
-第七行的 `int n = 87 * 69;` 代表我們宣告一個名為 `n` 的變數，其形態為整數 _(`int`, integer)_, 同時我們將其值設為 \\(87 \\times 69\\). 按下 F5 執行它，你會發現結果應該與 [1_2](https://gist.github.com/nevikw39/7cd9f2d7f536e4f78d4d0fcddb0fbb80#file-1-2_output-cpp) 相同。
+第七行的 `int n = 87 * 69;` 代表我們宣告一個名為 `n` 的變數，其形態為整數 _(`int`, integer)_, 同時我們將其值設為 \\(87 \\times 69\\). 按下 <kbd>F5</kbd> 執行它，你會發現結果應該與 [1_2](https://gist.github.com/nevikw39/7cd9f2d7f536e4f78d4d0fcddb0fbb80#file-1-2_output-cpp) 相同。
 
 ## 輸入
 
@@ -29,7 +29,7 @@ title: "[C++ 入門] 1.1 變數與輸入"
 
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "1.1-1_input.cpp" >}}
 
-趕緊按下 F5 執行看看，你會發現你的程式停下來等待你輸入一個整數，按下 Enter 之後就會重複你輸入的整數。我們一樣在第七行宣告一個名為 `n` 的整數變數，只是這回我們沒有賦予它初始值。第八行的 `cout` 你現在應該頗熟悉惹，值得注意的是第九行的 `cin >> n;`, 就是這行程式碼讓我們可以輸入一個值傳遞給 `n`.
+趕緊按下 <kbd>F5</kbd> 執行看看，你會發現你的程式停下來等待你輸入一個整數，按下 Enter 之後就會重複你輸入的整數。我們一樣在第七行宣告一個名為 `n` 的整數變數，只是這回我們沒有賦予它初始值。第八行的 `cout` 你現在應該頗熟悉惹，值得注意的是第九行的 `cin >> n;`, 就是這行程式碼讓我們可以輸入一個值傳遞給 `n`.
 
 ### 類題演練
 
@@ -79,7 +79,7 @@ int main()
 
 ## Debugger 的使用
 
-我們每次按下 F5 VS Code 底下的 status bar 都會變色，其實是執行所謂的 **Debugger**, 可是究竟要怎麼用？？試著在 VS Code 中對上面 `1.1-2_div_n_mod.cpp` 的第十行編號的前面按一下，前面應該會出現一個紅點 _(break point)_, 這時再按下 F5 輸入兩個整數並 Enter, 程式就會停下來惹。這時看到左上會有 VS Code 自動選取的一些變數 _Variables_, 雙擊可以直接修改其值；左中是 _Watch_ 雙擊可以輸入欲監看的表達式如 `a + b` 等，右下則是 _Call Stack_. 此時再按下 F5 程式又會繼徐執行下去。
+我們每次按下 <kbd>F5</kbd> VS Code 底下的 status bar 都會變色，其實是執行所謂的 **Debugger**, 可是究竟要怎麼用？？試著在 VS Code 中對上面 `1.1-2_div_n_mod.cpp` 的第十行編號的前面按一下，前面應該會出現一個紅點 _(break point)_, 這時再按下 <kbd>F5</kbd> 輸入兩個整數並 Enter, 程式就會停下來惹。這時看到左上會有 VS Code 自動選取的一些變數 _Variables_, 雙擊可以直接修改其值；左中是 _Watch_ 雙擊可以輸入欲監看的表達式如 `a + b` 等，右下則是 _Call Stack_. 此時再按下 <kbd>F5</kbd> 程式又會繼徐執行下去。
 
 {{<alert "動手手試看看，輸入 87 0 並在中斷點把除數的值改掉。" info>}}
 
