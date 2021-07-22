@@ -4,7 +4,7 @@ author: nevikw39
 categories: [程式💻]
 date: 2021-07-14T17:42:52+08:00
 description: ""
-images: []
+images: [images/tiobe.png]
 key_words: []
 series: [C++ 入門]
 tags: [C++]
@@ -57,7 +57,9 @@ Java, C# 這類語言會先編譯成位元組碼，等到執行前才由虛擬�
 
 ## 為何（不）要學 C++??
 
-最後就是對於初學者，應該要學習何種程式語言？？參考 TIOBE, 可以發現 C 語言自 1970s 始終維持高超人氣而不墜，C++ 同樣也維持著不錯的成績。近年來，一些新興語言如 Python, Go, Rust 譯獲得不少關注。
+最後就是對於初學者，應該要學習何種程式語言？？參考 [TIOBE](https://www.tiobe.com/tiobe-index/), 可以發現 C 語言自 1970s 始終維持高超人氣而不墜，C++ 同樣也維持著不錯的成績。近年來，一些新興語言如 Python, Go, Rust 亦獲得不少關注。
+
+{{< figure src="/images/tiobe.png" title="" width="100%">}}
 
 我的觀點是，在可預見的未來內，當前的主流作業系統將繼續維持與 C 的羈絆而難以撼動，因此對於志於資工的學生 C/C++ 仍是首選。而 C++ 相較於 C 對初學者更為友善且具備更多功能。雖然本教材以 C++ 為主，仍會適時註明相關 C 語法。
 
