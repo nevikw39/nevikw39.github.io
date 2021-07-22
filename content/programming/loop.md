@@ -82,7 +82,7 @@ for (initial; condition; afterthought)
 
 ### 0-indexed numbering
 
-到這裡裡可能很納悶，我們的 `for` 怎麼不寫成 `for (int i = 1; i <= n; i++)`?? 其實這樣當然也對，但在程式設計中我們傾向使用 _0-indexed numbering_, 包括閒錢我們看過 `int`, `long long` 的值域的表達，往往都是用一個左閉右開的區間 \\([a, b)\\)，是因為有這些好處：
+到這裡裡可能很納悶，我們的 `for` 怎麼不寫成 `for (int i = 1; i <= n; i++)`?? 其實這樣當然也對，但在程式設計中我們傾向使用 _0-indexed numbering_, 包括先前我們看過 `int`, `long long` 的值域的表達，往往都是用一個左閉右開的區間 \\([a, b)\\)，是因為有這些好處：
 - 區間長度即為 \\(b - a\\), 沒有討人厭的國小植樹問題
 - 將區間一分為二時可以輕易地得到 \\([a, \frac{a+b}{2})\\), \\([\frac{a+b}{2}, b)\\), 不用再 \\(+1\\)
 - 還記得國二數學等差數列與級數嗎？？ \\(a_n = a_1 + (n - 1)d,\ S_n = \frac{n}{2}(2a_1 + (n - 1)d)\\), 如果我們改用 _0-indexed numbering_, 公式變成 \\(a_n = a_0 + nd,\ S_n = \frac{n+1}{2}(2a_0 + nd)\\), 是不是漂亮許多？？
