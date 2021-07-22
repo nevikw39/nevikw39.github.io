@@ -115,7 +115,7 @@ for (initial; condition; afterthought)
 
 寫個迴圈讀 \\(N\\) 個數進來判斷是否等於 \\(K\\) 對我們而言不難，關鍵在於需要避免重複。我們可以使用 `break;` 語句跳離當前的迴圈：
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-4_break.cpp" >}}
-我們在 `sitch-case` 就遇過 `break;` 惹，而它也可以用在 `while`, `for`.
+我們在 `switch-case` 就遇過 `break;` 惹，而它也可以用在 `while`, `for`.
 
 接著考慮另一個問題。小時候大家都會數數，不過在某些地方某些數字很敏感，需要被屏蔽。示範一下從 \\(0\\) 數到 \\(99\\), 並用 `continue;` 跳過敏感數字：
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-5_continue.cpp" >}}
