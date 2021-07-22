@@ -76,7 +76,7 @@ for (initial; condition; afterthought)
 ```
 其中，`initial` 是初始化的陳述，C++ 跟現代的 C 允許在此宣告變數；`condition` 跟 `while` 一樣，變成 \\(0\\) 就會離開迴圈；而 `afterthought` 是每次執行完大括弧內陳述之後會做的運算。我們的輸出 `n` 次字串的程式 `for` ver.:
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-3_for.cpp" >}}
-我們外加一個小功能，就是輸出這是第幾遍，順帶一提， `for` 中的 `i` 是 _index_ 顛號的意思。
+我們外加一個小功能，就是輸出這是第幾遍，順帶一提， `for` 中的 `i` 是 _index_ 編號的意思。
 {{<alert "動手手試看看，你能不能寫出 while 版本而且帶有編號的程式？？" info>}}
 {{<alert "動手手試看看，我們於第九行前方點一下設置中斷點，按 F10 Step Over 逐步執行，看看下一行會跳至何處。" info>}}
 
