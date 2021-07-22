@@ -7,9 +7,8 @@ description: ""
 images: []
 key_words: []
 series: [C++ 入門]
-tags: [C++]
+tags: [C++, control flow, if-else, switch-case, debugger]
 title: "[C++ 入門] 2. 程序流程：if-else 條件判斷 & switch-case 分支結構"
-draft: true
 # featured: true
 # toc: false
 ---
@@ -46,7 +45,7 @@ else
 ```
 如果 `condition` 非零，就會執行 `if` 大括弧的內容，否則執行 `else` 大括弧的內容，最後繼續執行下去。我們再次改進我們的除法計算器：
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-1_if_else.cpp" >}}
-這次再有 87 輸入 `87 0`, 就會告訴他除數不可為零惹。當然我們的 `condition` 不見得只是一個關係運算式，還可以結合前一篇介紹的邏輯運算子等等。
+這次再有 87 輸入 `87 0`, 就會告訴他除數不可為零惹。當然我們的 `condition` 不見得只是一個關係運算式，還可以結合前一篇介紹的邏輯運算子等等。我們可以一樣在第十行前方點一下設置中斷點，這次不要急著按 F5 繼續執行，改按 <kbd>F10</kbd> _Step Over_ 逐步執行，看看下一行會跳至何處。
 
 ### 類題演練
 
@@ -98,7 +97,21 @@ else
 ```
 這邊應該都還很好理解，就給各位自行體驗惹。做些例題可以確認自己是否真的了解惹。
 
-#### 類提演練
+#### 範例解析
+
+- [GreenJudge c032](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c032)
+    + 大家應該多少有聽過學年學分制，本題輸入兩學期成績，要求計算所得學分數。簡單的想法是先計算兩學期平均是否大於六十，再判斷各自是否大於六十，但注意的整數的除法，所以我們可以移項。
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-3_g_c032.cpp" >}}
+    + 另解甚至根本不用 `if-else`, 歡迎細細品味
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-4_g_c032_arithmetic.cpp" >}}
+- [GreenJudge c014](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c014)
+    + 這題最單純的想法就是乖乖照題目的條件列式，注意 `b` 有可能小於 `a`
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-5_g_c014.cpp" >}}
+    + 這邊同樣提供不用 `if-else` 的另解
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2-6_g_c014_arithmetic.cpp" >}}
+
+
+#### 類題演練
 
 - [GreenJudge a014](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a014)
 - [GreenJudge a015](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a015)
@@ -107,6 +120,7 @@ else
 - [GreenJudge a018](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a018)
 - [GreenJudge a019](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a019)
 - [GreenJudge a020](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a020)
+- [TCIRC Judge c002](https://judge.tcirc.tw/ShowProblem?problemid=c002)
 
 ## switch-case 分支結構
 
