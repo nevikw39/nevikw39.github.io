@@ -52,7 +52,7 @@ do
     + 這題要求小數點後前 `n` 位，就用迴圈模擬我們的長除法
         * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-7_g_c046.cpp" >}}
 - [GreenJudge c040](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c040)
-    + 一樣是模擬題，即使沒聽過輾轉相除法也沒關係，這題目說的就對惹
+    + 一樣是模擬題，即使沒聽過輾轉相除法也沒關係，照題目說的就對惹
         * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-8_g_c040.cpp" >}}
 
 ### 類題演練
