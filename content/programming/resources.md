@@ -41,12 +41,25 @@ Online Judge 上會有若干題目，每個題目會有一定的**輸入**及**�
     + 歷史最悠久的 OJ, 對英文不排斥的話也很不錯
 - [TCIRC Judge](https://judge.tcirc.tw/)
     + 自己家的 OJ 必須推 XD
+- [TIOJ](https://tioj.ck.tp.edu.tw//)
+    + 建中 OJ, 對新手算難
 
-根據你提交的程式的輸出與標準答案比對後的結果，如果正確就是 **AC** _(Accepted)_, 錯誤是 **WA** _(Wrong Answer)_, 超過時間或記憶體分別為 **TLE** _(Time Limit Exceeded)_, **MLE** _(Memory Limit Exceeded)_; 如果一個題目有多筆測資，當然要全部答對才會 **AC**, 只要有一個不是，則會得到 **NA** _(Not accepted)_.
+根據你提交的程式的輸出與標準答案比對後的結果可能如下：
+Code | Description | Note
+:-:|:-|:-
+**AC** | _Accepted_ | 完全正確
+**WA** | _Wrong Answer_ | 存在錯誤
+**NA** | _Not accepted_ | 對於多筆測資，至少有一非 **AC**
+**CE** | _Compile Error_ | 編譯錯誤
+**RE** | _Runtime Error_ | 執行時期錯誤
+**TLE** | _Time Limit Exceeded_ | 超過時間限制
+**MLE** | _Memory Limit Exceeded_ | 超過記憶體限制
+**OLE** | _Output Limit Exceeded_ | 輸出過多
+**RF** | _Restricted Functions_ | 使用非法的函式
 
 ## 如何學好程式？？
 
-學會程式真的不是一件太艱難的事，其實與生命中許多體驗向若，只要準備好正確的態度：
+學會程式真的不是一件太艱難的事，其實與生命中許多體驗相若，只要準備好正確的態度：
 
 0. 懷抱對於程式的熱忱
 1. 具備豐沛的好奇心
