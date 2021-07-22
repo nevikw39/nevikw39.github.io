@@ -50,7 +50,7 @@ title: "[C++ 入門] 1 hello, world 與輸出"
 >
 > hi, nevikw39
 
-那要怎麼辦？？直接在 `"hello, world` 後面按 Enter 然後輸入 `hi, nevikw39`?? 如果真的這麼做且按下 F5, 就會得到錯誤訊息，趁現在來觀察一下，我這邊的錯誤訊息會說 `cout << "hello, world` _missing terminating " character_, `hi, ";` _‘hi’ was not declared in this scope;_ 簡單來說就是 C++ 中雙引號必須在同一行，所以直接在 `"hello, world` 後面按 Enter 就會導致編譯器找不到結尾的雙引號，而下一行的 `hi` 不在雙引號內也讓編譯器不認識它。
+那要怎麼辦？？直接在 `"hello, world` 後面按 <kbd>Enter</kbd> 然後輸入 `hi, nevikw39`?? 如果真的這麼做且按下 F5, 就會得到錯誤訊息，趁現在來觀察一下，我這邊的錯誤訊息會說 `cout << "hello, world` _missing terminating " character_, `hi, ";` _‘hi’ was not declared in this scope;_ 簡單來說就是 C++ 中雙引號必須在同一行，所以直接在 `"hello, world` 後面按 <kbd>Enter</kbd> 就會導致編譯器找不到結尾的雙引號，而下一行的 `hi` 不在雙引號內也讓編譯器不認識它。
 
 所以究竟該怎麼辦喇？？這時我們就需要跳脫序列 _(Escape Sequence)_ 的幫忙。所謂跳脫序列，指的是我們用一個特殊字元 `\` 來跳脫下一個字元，使之表現出特定功能。比如當我們要換行時，就可以使用 `\n`. 下表列出一些常用的跳脫字元：
 
