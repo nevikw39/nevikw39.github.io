@@ -99,12 +99,14 @@ for (initial; condition; afterthought)
 
 - [ZeroJudge a005](https://zerojudge.tw/ShowProblem?problemid=a005)
 - [ZeroJudge b791](https://zerojudge.tw/ShowProblem?problemid=b971)
+- [ZeroJudge c184](https://zerojudge.tw/ShowProblem?problemid=c184)
 - [ZeroJudge d498](https://zerojudge.tw/ShowProblem?problemid=d498)
 - [GreenJudge a026](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a026)
 - [GreenJudge a027](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a027)
 - [GreenJudge a028](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a028)
 - [GreenJudge a029](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a029)
 - [GreenJudge a030](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a030)
+- [TCIRC Judge c003](https://judge.tcirc.tw/ShowProblem?problemid=c003)
 
 ## break & continue
 
@@ -131,6 +133,7 @@ for (initial; condition; afterthought)
 - [ZeroJudge c418](https://zerojudge.tw/ShowProblem?problemid=c418)
 - [ZeroJudge c419](https://zerojudge.tw/ShowProblem?problemid=c419)
 - [ZeroJudge c420](https://zerojudge.tw/ShowProblem?problemid=c420)
+- [ZeroJudge d649](https://zerojudge.tw/ShowProblem?problemid=d649)
 - [GreemJudge a046](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a046)
 - [GreemJudge a047](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a047)
 - [GreemJudge a048](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=a048)
