@@ -7,9 +7,8 @@ description: ""
 images: []
 key_words: []
 series: [C++ 入門]
-tags: [C++]
+tags: [C++, control flow, while, for, debugger]
 title: "[C++ 入門] 2.1 程序流程：while & for 迴圈控制"
-draft: true
 # featured: true
 # toc: false
 ---
@@ -28,6 +27,7 @@ while (condition)
 與 `if` 的不同在於 `while` 會重複執行大括弧內的陳述，直到 `condition` 為零。來看個範例吧
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-0_while_rand.cpp" >}}
 這個程式首先模擬丟擲一顆骰子，產生閉區間 \\([1, 6]\\) 內的偽隨機數為 `val`, 之後讓使用者輸入 `n`, 當 `n != val` 就讓使用者繼續猜。第二、八、九及十行前半是產生亂數的方法，可以先不理它。而第十行後半的 `n = 0` 很重要，它是一個變數初始化的作用，當我們宣告一個變數卻未賦予它值，存在一個極低的機率它的值剛好會是 `val`.
+{{<alert "動手手試看看，我們同樣在第十一行前方點一下設置中斷點，偷偷觀察我們骰子擲到的 val, 按 F10 Step Over 逐步執行，看看下一行會跳至何處。" info>}}
 
 回到本文開頭的引子，如何寫出輸出 `n` 次字串的程式？？
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-1_while.cpp" >}}
@@ -45,6 +45,15 @@ do
 與 `while` 的不同在於 `do-while` 會至少執行一次大括弧的內容。我們的擲骰子程式可以這樣改寫：
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-2_do_while_rand.cpp" >}}
 注意到因為我們在取 `n` 的值判斷 `n != val` 前必定執行過 `cin >> n` 賦值，因此第時行不予初始化也是安全的。
+
+### 例題解析
+
+- [GreenJudge c046](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c046)
+    + 這題要求小數點後前 `n` 位，就用迴圈模擬我們的長除法
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-7_g_c046.cpp" >}}
+- [GreenJudge c040](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c040)
+    + 一樣是模擬題，即使沒聽過輾轉相除法也沒關係，這題目說的就對惹
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-8_g_c040.cpp" >}}
 
 ### 類題演練
 
@@ -67,17 +76,24 @@ for (initial; condition; afterthought)
 ```
 其中，`initial` 是初始化的陳述，C++ 跟現代的 C 允許在此宣告變數；`condition` 跟 `while` 一樣，變成 \\(0\\) 就會離開迴圈；而 `afterthought` 是每次執行完大括弧內陳述之後會做的運算。我們的輸出 `n` 次字串的程式 `for` ver.:
 {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-3_for.cpp" >}}
-我們外加一個小功能，就是輸出這是第幾遍，順帶一提， `for` 中的 `i` 是_index_ 顛號的意思。
+我們外加一個小功能，就是輸出這是第幾遍，順帶一提， `for` 中的 `i` 是 _index_ 顛號的意思。
 {{<alert "動手手試看看，你能不能寫出 while 版本而且帶有編號的程式？？" info>}}
+{{<alert "動手手試看看，我們於第九行前方點一下設置中斷點，按 F10 Step Over 逐步執行，看看下一行會跳至何處。" info>}}
 
 ### 0-indexed numbering
 
 到這裡裡可能很納悶，我們的 `for` 怎麼不寫成 `for (int i = 1; i <= n; i++)`?? 其實這樣當然也對，但在程式設計中我們傾向使用 _0-indexed numbering_, 包括閒錢我們看過 `int`, `long long` 的值域的表達，往往都是用一個左閉右開的區間 \\([a, b)\\)，是因為有這些好處：
 - 區間長度即為 \\(b - a\\), 沒有討人厭的國小植樹問題
 - 將區間一分為二時可以輕易地得到 \\([a, \frac{a+b}{2})\\), \\([\frac{a+b}{2}, b)\\), 不用再 \\(+1\\)
-- 還記得國二數學等差數列與級數嗎？？ \\(a_n = a_1 + (n - 1)d,\ S_n = \frac{n}{2}(2a_1 + (n - 1)d)\\), 如果我們改用 _0-indexed numbering_, 公式變成 \\(a_n = a_0 + nd,\ S_n = \frac{n}{2}(2a_0 + nd)\\), 是不是漂亮許多？？
+- 還記得國二數學等差數列與級數嗎？？ \\(a_n = a_1 + (n - 1)d,\ S_n = \frac{n}{2}(2a_1 + (n - 1)d)\\), 如果我們改用 _0-indexed numbering_, 公式變成 \\(a_n = a_0 + nd,\ S_n = \frac{n+1}{2}(2a_0 + nd)\\), 是不是漂亮許多？？
 
 歷史上 \\(0\\) 這個概念於人類文明中算是比較晚的突破性創新，至今我們甚至都還不是很習慣它。等到後面進入陣列與指標之後，相信會對 _0-indexed numbering_ 更有感覺。發明最短路徑演算法的 Dijkstra 寫過一篇[短文](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD08xx/EWD831.html)可以看看。
+
+### 例題解析
+
+- [GreenJudge c004](http://www.tcgs.tc.edu.tw:1218/ShowProblem?problemid=c004)
+    + 因為這題我們需要知道是迴圈第幾次，所以用 `for` 而非 `while`. 注意到這題的數字都擠在一起沒有空白，因此我們用讀入字元的方式，再減去 `0` 的字元值就可以轉回整數。
+        * {{< gist nevikw39 7cd9f2d7f536e4f78d4d0fcddb0fbb80 "2.1-8_g_c004.cpp" >}}
 
 ### 類題演練
 
