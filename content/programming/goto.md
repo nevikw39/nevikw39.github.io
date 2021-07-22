@@ -7,9 +7,8 @@ description: ""
 images: []
 key_words: []
 series: [C++ 入門]
-tags: [C++]
+tags: [C++, control flow]
 title: "[C++ 入門] 2.2 程序流程：goto 跳轉與其他"
-draft: true
 # featured: true
 # toc: false
 ---
