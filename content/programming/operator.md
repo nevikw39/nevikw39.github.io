@@ -183,6 +183,8 @@ a | b | a ^ b
 
 位元運算還可以實現很多高效運算，比如取絕對值、取最大最小值等等，其他奇技淫巧就留給各位慢慢研究惹。當然上面舉的例子不少不用位元運算也可以達成，只是用位元運算理論上效率較高，而且顯得你很潮。
 
+成大教授[好文](https://hackmd.io/@sysprog/c-prog/https%3A%2F%2Fhackmd.io%2F%40sysprog%2Fc-floating-point)推介。
+
 ## 條件運算子
 
 條件運算子是唯一的三元運算子，因此也常常直接用以指代。其語法是這樣：`condition ? value_if_true : value_otherwise`. 其中，`condition` 是個表達式，如果它非零為真則回傳 `value_if_true` 的值，否則回傳 `value_otherwise`. 某種程度來說，它是我們下一篇要介紹的 **if-else 條件判斷** 的簡化特例版。
