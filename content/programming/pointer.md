@@ -9,7 +9,6 @@ key_words: []
 series: [C++ 入門]
 tags: [C++, C, pointer, reference]
 title: "[C++ 入門] 3. 指標與參照"
-draft: true
 # featured: true
 # toc: false
 ---
