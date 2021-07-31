@@ -1,17 +1,21 @@
 figure {
-	text-align: center;
+	text-align: center !important;
 }
 
 iframe[src*="ads"] {
-	display: none;
-	visibility: hidden;
+	display: none !important;
+	visibility: hidden !important;
 }
 
 hr {
-	color: var(--hbs-primary-light);
-	height: .25em;
-    margin: 24px 0;
-	opacity: .75;
+	color: var(--hbs-primary-light) !important;
+	height: .25em !important;
+    margin: 24px 0 !important;
+	opacity: .75 !important;
+}
+
+code {
+	color: var(--hbs-primary-light) !important;
 }
 
 body .gist .highlight {
