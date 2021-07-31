@@ -4,7 +4,7 @@ author: nevikw39
 categories: [拉麵🍜]
 date: {{ .Date }}
 description: ""
-images: ["/images/"]
+images: ["/images/{{ .Name }}."]
 key_words: []
 series: []
 tags: []
@@ -20,9 +20,9 @@ draft: true
 + 🏬店名
     * 
 + 🏠地址
-    * 
+    * []()
 + 🔗連結
-    * 
+    * []()
 ---
 
-{{< figure src="/images/" width="100%" >}}
+{{< figure src="/images/{{ .Name }}." width="100%" >}}
