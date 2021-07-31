@@ -15,7 +15,7 @@ hr {
 }
 
 code {
-	color: var(--hbs-primary-light) !important;
+	color: var(--hbs-primary-light);
 }
 
 body .gist .highlight {
