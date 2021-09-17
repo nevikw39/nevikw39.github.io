@@ -74,6 +74,8 @@ title: 關於
 - [渡山樓](/ramen/dushanlou/)
 - [牛庵](/ramen/moann/)
 - [千勝軒](/ramen/chikatuken/)
+- [麵屋零](/ramen/zero/)
+- [吞山郎](/ramen/tunshanlang/)
 
 至於花🈷️嵐、一蘭等等就算惹ＸＤ。
 
