@@ -15,7 +15,7 @@ title: 關於
 > 初六 • 象曰：「謙謙君子，卑以自牧。」 <br>
 > --- <cite>《易經 • 謙卦 ䷎》</cite>
 
-各位好，我是來自清大資工的 `nevikw39` **牜攵犬羊**，歡迎來到 _「如詩的韻律」_！！以下是關於我的一點自我介紹：
+各位好，我是來自清大資工的 `nevikw39` **牜攵犬羊**，歡迎來到 _「如詩的韻律」_！！平時的休閒活動當屬🏓打桌球，另外有一個待發掘的興趣是📷攝影，目前手上有台家裡的舊單眼 Nikon D7000. 以下是關於我的一點自我介紹：
 
 ## 🖥 資訊
 
@@ -23,7 +23,7 @@ title: 關於
 
 ### 🏁 競賽
 
-- 2021 ICPC Asia Taiwan Online Programming Contest, Team _Dkjistra_,  **29th**
+- 2021 ICPC Asia Taiwan Online Programming Contest _(TOPC)_, Team _Dkjistra_,  **29th**
 - 110 學年度全國大專院校軟體設計競賽 `(NCPC, National Collegiate Programming Contest)` 隊伍 _Dkjistra_, 決賽**第 28 名**
 - 2020 網際網路程式設計大賽 `(NPSC, National Problem Solving Contest on Internet)` 隊伍 _CRICT_, **優勝**，決賽**第 16 名**
 - 109 學年度學科能力競賽中投區複賽資訊科 **第九名** _佳作_
@@ -78,6 +78,7 @@ title: 關於
 - [千勝軒](/ramen/chikatuken/)
 - [麵屋零](/ramen/zero/)
 - [吞山郎](/ramen/tunshanlang/)
+- [東商店](/ramen/higashihouten/)
 
 至於花🈷️嵐、一蘭等等就算惹ＸＤ。
 
