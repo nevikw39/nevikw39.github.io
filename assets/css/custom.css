@@ -14,6 +14,10 @@ hr {
 	opacity: .75 !important;
 }
 
+.navbar-settings, .post-panel-wrapper {
+	display: none !important;
+}
+
 code {
 	color: var(--hbs-primary-light);
 }
