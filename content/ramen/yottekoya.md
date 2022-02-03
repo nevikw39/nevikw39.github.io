@@ -2,7 +2,7 @@
 aliases: []
 author: nevikw39
 categories: [拉麵🍜]
-date: 2022-02-03T16:03:25+08:00
+date: 2021-11-28T18:31:25+08:00
 description: ""
 images: ["/images/yottekoya.JPG"]
 key_words: []
