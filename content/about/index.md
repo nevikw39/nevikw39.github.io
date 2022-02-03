@@ -83,6 +83,7 @@ title: 關於
 - [道樂商店](/ramen/dourakubaiten/)
 - [京都柚子豚骨拉麵](/ramen/yottekoya/)
 - [蘭丸](/ramen/ranmaru/)
+- [MEN Monster](/ramen/men_monster/)
 
 至於花🈷️嵐、一蘭等等就算惹ＸＤ。
 
