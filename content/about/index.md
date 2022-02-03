@@ -79,6 +79,8 @@ title: 關於
 - [麵屋零](/ramen/zero/)
 - [吞山郎](/ramen/tunshanlang/)
 - [東商店](/ramen/higashihouten/)
+- [麵屋雞金](/ramen/torikin/)
+- [道樂商店](/ramen/dourakubaiten/)
 
 至於花🈷️嵐、一蘭等等就算惹ＸＤ。
 
