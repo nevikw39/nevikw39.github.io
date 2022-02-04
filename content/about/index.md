@@ -24,7 +24,7 @@ title: 關於
 ### 🏁 競賽
 
 - 2021 ICPC Asia Taiwan Online Programming Contest _(TOPC)_, Team _Dkjistra_,  **29th**
-- 110 學年度全國大專院校軟體設計競賽 `(NCPC, National Collegiate Programming Contest)` 隊伍 _Dkjistra_, 決賽**第 28 名**
+- [110 學年度全國大專院校軟體設計競賽 `(NCPC, National Collegiate Programming Contest)` 隊伍 _Dkjistra_, 決賽**第 28 名**](/posts/ncpc_final_110)
 - 2020 網際網路程式設計大賽 `(NPSC, National Problem Solving Contest on Internet)` 隊伍 _CRICT_, **優勝**，決賽**第 16 名**
 - 109 學年度學科能力競賽中投區複賽資訊科 **第九名** _佳作_
 - 108 學年度學科能力競賽中投區複賽資訊科 **第四名**
