@@ -4,7 +4,7 @@ author: nevikw39
 categories: [拉麵🍜]
 date: 2022-02-03T16:48:40+08:00
 description: ""
-images: ["/images/men_monster.JPG"]
+images: ["/images/men-monster.JPG"]
 key_words: []
 series: []
 tags: [有囍]
@@ -30,4 +30,4 @@ featured: true
     * [Facebook](https://www.facebook.com/menmonstertaichung/)
 ---
 
-{{< figure src="/images/men_monster.JPG" width="100%" >}}
+{{< figure src="/images/men-monster.JPG" width="100%" >}}
