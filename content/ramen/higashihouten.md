@@ -7,7 +7,7 @@ description: ""
 images: ["/images/higashihouten.jpeg"]
 key_words: []
 series: []
-tags: [D7000]
+tags: [D7000📷]
 title: 東商店
 # featured: true
 # toc: false
