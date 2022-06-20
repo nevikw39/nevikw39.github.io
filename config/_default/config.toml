@@ -25,6 +25,8 @@ hasCJKLanguage = true
 
 enableGitInfo = true
 
+summaryLength = 45
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
