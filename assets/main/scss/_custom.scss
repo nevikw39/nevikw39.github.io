@@ -8,18 +8,19 @@ iframe[src*="ads"] {
 }
 
 hr {
-	color: var(--hbs-primary-light) !important;
-	height: .25em !important;
+	color: var(--hbs-primary);
+	height: .5em !important;
     margin: 24px 0 !important;
-	opacity: .75 !important;
-}
-
-.navbar-settings, .post-panel-wrapper {
-	display: none !important;
+	opacity: .87 !important;
 }
 
 code {
-	color: var(--hbs-primary-light);
+	color: var(--hbs-primary);
+}
+
+.gallery {
+	align-items: center;
+	justify-content: center;
 }
 
 body .gist .highlight {

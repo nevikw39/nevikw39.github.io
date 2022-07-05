@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 # Pagination
-paginate = 10
+paginate = 5
 # paginatePath = "page"
 
 # Disqus
@@ -40,3 +40,6 @@ summaryLength = 45
   series = "series"
   tag = "tags"
   preserveTaxonomyNames = true
+
+[build]
+  writeStats = true

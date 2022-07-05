@@ -29,8 +29,12 @@ featuredPostCount = 50 # The number of featured posts shown in sidebar.
 recentPostCount = 10 # The number of recent posts shown in sidebar.
 relatedPostCount = 5 # The number of related posts.
 categoryCount = 10 # The number of categories shown in sidebar.
-tagCount = 50 # The number of tags shown in sidebar.
+tagCount = 20 # The number of tags shown in sidebar.
 seriesCount = 10 # The number of series shown in sidebar.
+
+countTaxonomyPosts = true
+taxonomySortingMethod = "popularity"
+sidebarTaxonomies = ["tags", "categories", "series", "archieves"]
 
 # Custom CSS and JS
 customCSS = []
@@ -40,6 +44,10 @@ customJS = []
 # tocSticky = true # Whether to make TOC stick to top when scrolling. Default to true.
 
 color = "dark"
+
+[post]
+  excerptMaxLength = 165
+  panel = false
 
 [archive]
   # paginate = 8 # Archive pagination. Default to 100.
@@ -72,8 +80,14 @@ color = "dark"
 [share]
   # addThis = "" # AddThis pubid.
 
+[actionsPanel]
+  disabled = true
+
 # [fontSize]
   # extraSmall = ".8rem"
   # small = ".9rem"
   # large = "1.1rem"
   # extraLarge = "1.2rem"
+
+[topAppbar]
+  colorToggle = false
