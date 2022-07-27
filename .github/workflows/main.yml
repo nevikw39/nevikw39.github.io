@@ -34,8 +34,8 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: |
-        hugo mod npm pack
-        npm ci
+         hugo mod npm pack
+         npm ci
 
       - name: Build
         run: hugo --minify
