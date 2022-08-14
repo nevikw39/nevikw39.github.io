@@ -7,7 +7,7 @@ description: ""
 images: ["/images/zero.JPG"]
 key_words: []
 series: []
-tags: []
+tags: [名店拉麵]
 title: 麵屋零
 # featured: true
 # toc: false

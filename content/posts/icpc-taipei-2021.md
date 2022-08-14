@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [icpc_taipei_2021]
 author: nevikw39
 categories: [競賽🏁]
 date: 2021-11-28T17:21:26+08:00
@@ -55,11 +55,9 @@ title: 2021 ICPC Asia Taipei Regional Contest
 
 ## 賽後
 
-{{< figure src="/images/icpc_taipei_2021_ballons.JPG" width="69%" >}}
-
 最終我們這隊做出五題，剛剛好是第 \\(30\\) 名，有驚無險地壓線獲得 **Silver Award**, 我要再次感謝兩位學長！！可惜又是由於疫情的緣故，過往主辦單位提供晚宴的傳統被取消惹。
 
-{{< figure src="/images/icpc_taipei_2021_silver.JPG" width="69%" >}}
+{{< gallery images="images/icpc_taipei_2021_ballons.JPG,images/icpc_taipei_2021_silver.JPG" >}}
 
 ### D - Largest Remainder
 

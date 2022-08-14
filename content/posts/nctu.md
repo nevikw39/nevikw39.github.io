@@ -7,7 +7,7 @@ description: "以下是我對於交通大學資訊工程學系 APCS 組第二階
 images: []
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 筆試, 撞期]
 series: [甄試心得]
-tags: [交大, 面試]
+tags: [交大, 面試, APCS]
 title: 交通大學面試心得
 # featured: true
 # toc: false

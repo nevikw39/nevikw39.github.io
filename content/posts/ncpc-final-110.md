@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [ncpc_final_110]
 author: nevikw39
 categories: [競賽🏁]
 date: 2021-10-16T17:21:05+08:00

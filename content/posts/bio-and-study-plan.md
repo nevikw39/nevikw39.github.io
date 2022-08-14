@@ -7,7 +7,7 @@ description: ""
 images: ["images/bio-and-std-plan.jpg"]
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 面試, 筆試, 撞期, 中大]
 series: []
-tags: [LaTeX, 備審, 成大, 中央, 清大, 交大]
+tags: [LaTeX, 備審, 成大, 中央, 清大, 交大, APCS]
 title: 審查資料準備方向
 featured: true
 # toc: false

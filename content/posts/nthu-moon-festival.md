@@ -7,7 +7,7 @@ description: ""
 images: ["/images/nthu-moon-festival.jpeg"]
 key_words: []
 series: [大學]
-tags: [D7000📷]
+tags: [D7000📷, 清大]
 title: 清大中秋節隨手攝月一幀
 # featured: true
 # toc: false

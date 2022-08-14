@@ -7,7 +7,7 @@ description: "中央 APCS 檢定門檻為觀念四級分、實作四級分，加
 images: []
 key_words: [個人申請入學, 個申, 大學入學, 資工, 資訊工程, 資訊工程學, 資訊工程學系, 資工系, 一階, 二階, 備審, 審查資料, 甄試, 筆試, 撞期]
 series: [甄試心得]
-tags: [中央, 筆試]
+tags: [中央, 筆試, APCS]
 title: 中央大學筆試心得
 # featured: true
 # toc: false

@@ -7,7 +7,7 @@ description: ""
 images: ["/images/zhongxiao.JPG"]
 key_words: []
 series: []
-tags: [貍匠]
+tags: [貍匠, 名店拉麵]
 title: 狸匠拉麵
 # featured: true
 # toc: false

@@ -7,7 +7,7 @@ description: ""
 images: ["/images/men-monster.JPG"]
 key_words: []
 series: []
-tags: [有囍]
+tags: [有囍, 名店拉麵]
 title: MEN Monster
 featured: true
 # toc: false

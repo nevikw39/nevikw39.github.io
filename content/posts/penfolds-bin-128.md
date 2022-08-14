@@ -1,5 +1,5 @@
 ---
-aliases: []
+aliases: [penfolds_bin128]
 author: nevikw39
 categories: []
 date: 2022-06-13T02:41:30+08:00
