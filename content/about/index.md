@@ -72,17 +72,15 @@ title: 關於
 - [大角拉麵](/ramen/dajiao/)
 - [山下公園](/ramen/yamashita/)
 - [七面鳥](/ramen/shichimenchou/)
-- [渡山樓](/ramen/dushanlou/)
 - [牛庵](/ramen/moann/)
-- [麵屋零](/ramen/zero/)
 - [吞山郎](/ramen/tunshanlang/)
-- [東商店](/ramen/higashihouten/)
 - [麵屋雞金](/ramen/torikin/)
 - [道樂商店](/ramen/dourakubaiten/)
 - [京都柚子豚骨拉麵](/ramen/yottekoya/)
 - [蘭丸](/ramen/ranmaru/)
 - [MEN Monster](/ramen/men_monster/)
 - [麵屋吉光](/ramen/kikkou/)
+- [芳賀](/ramen/haga/)
 
 至於花🈷️嵐、一蘭等等就算惹ＸＤ。
 
