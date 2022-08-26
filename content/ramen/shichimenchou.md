@@ -7,7 +7,7 @@ description: ""
 images: ["/images/shichimenchou.JPG"]
 key_words: []
 series: []
-tags: [名店拉麵]
+tags: [七面鳥, 名店拉麵]
 title: 七面鳥
 # featured: true
 # toc: false
