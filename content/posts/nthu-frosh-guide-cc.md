@@ -23,7 +23,7 @@ title: 清大新生參考：資源帳號篇
 
 ### 計中 mail server (`mx`)
 
-在 Email 普遍商業發展之前，各大學通常早就建置惹自己的 mail server. 時至今日，功能或許相對比較陽春一些，而且不同的協定跟年份導致種種疊層架屋的伺服器們，但還是更可靠有保證，即使畢業後仍然存在，用來申請其他服務比較安心。相關資訊可以參考網路系統組的[網頁](https://net.nthu.edu.tw/netsys/mail:student)。
+在 Email 普遍商業發展之前，各大學通常早就建置惹自己的 mail server. 時至今日，功能或許相對比較陽春一些，而且不同的協定跟年份導致種種疊層架屋的伺服器們，但還是更可靠有保證，即使畢業後仍然存在，用來申請其他服務比較安心。相關資訊可以參考[網路系統組](https://net.nthu.edu.tw/netsys/service)的[網頁](https://net.nthu.edu.tw/netsys/mail:student)。
 
 計中 mail 還可以在申請[宿網](#宿舍網路)時作為驗證；附帶的空間還可以作為 `FTP` 與[個人網頁](https://m110.nthu.edu.tw/~s110062219)，只是現在應該都已經式微惹。剛才才發現 `FTP` 需要校內 IP address [(VPN)](#vpn) 才能登入，畢竟 `FTP` 是明文的，難怪之前都失敗。
 
@@ -43,7 +43,7 @@ title: 清大新生參考：資源帳號篇
 
 根據這篇[公告](https://net.nthu.edu.tw/netsys/mailing:announcement:20220609_01)，學校目前提供在校生的 Google 帳號是 **Education Plus**, 最重要的雲端硬碟容量將在兩年內從 \\(5\text{TB}\\) 調降至 \\(20\text{GB}\\).
 
-申請帳號的[流程](https://net.nthu.edu.tw/netsys/gapp)是校務系統 \\(\to\\) 計通中心相關服務 \\(\to\\) 網路系統組線上服務 \\(\to\\) Google Apps 帳號申請，姓名與帳號名稱皆可自行決定，指示日後無法更改。
+申請帳號的[流程](https://net.nthu.edu.tw/netsys/gapp)是校務系統 \\(\to\\) 計通中心相關服務 \\(\to\\) 網路系統組線上服務 \\(\to\\) Google Apps 帳號申請，姓名與帳號名稱皆可自行決定，只是日後無法更改。
 
 我最近才知道 `gapp` 還有一個網域別名 `cloud.nthu.edu.tw`, 亦即 `gapp` 皆可以藉由 `<同名>@cloud.nthu.edu.tw` 收發信，具體做法跟信箱別名非常類似。
 
@@ -63,7 +63,7 @@ title: 清大新生參考：資源帳號篇
 
 ### 校園 Wi-Fi
 
-學校的 Wi-Fi 建置是很普及，但品質常為人詬病，在教育、圖書館與人社院就確實堪憂，台達、資電館一樓也不甚穩定，不過像小吃部就很順暢。
+學校的 [Wi-Fi](https://net.nthu.edu.tw/netsys/wireless) 建置是很普及，但品質常為人詬病，在教育、圖書館與人社院就確實堪憂，台達、資電館一樓也不甚穩定，不過像小吃部就很順暢。
 
 #### 申請方式
 
@@ -88,13 +88,19 @@ title: 清大新生參考：資源帳號篇
 
 ### 宿舍網路
 
-清大宿舍的每個床位都有一個網路埠，對映一個屬於 \\(140.114.0.0/16\\) 的固定 `IP` address. 如果有計中 mail 帳號就不必再額外申請宿網帳號，設定的部分比較麻煩，[申請](https://dormnet.nthu.edu.tw/)時就必須綁定 `MAC` _(Media Access Controll_) address, 完成後會得到 static `IP` address, subnet mask, gateway 等資訊。高中寒訓有住過隔壁交大九十舍，他們是用 captive portal 來驗證，好像還是 DHCP, 相對比較彈性跟容易。
+清大宿舍的每個床位都有一個網路埠，對映一個屬於 \\(140.114.0.0/16\\) 的固定 `IP` address. 如果有計中 mail 帳號就不必再額外申請[宿網](https://net.nthu.edu.tw/netsys/dormnet)帳號。設定的部分比較麻煩，[申請](https://dormnet.nthu.edu.tw/)時就必須綁定 `MAC` _(Media Access Control_) address, 完成後會得到 static `IP` address, subnet mask, gateway 等資訊。高中寒訓有住過隔壁交大九十舍，他們是用 captive portal 來驗證，好像還是 DHCP, 相對比較彈性跟容易。
 
 雖然似乎有規定每人每日下載至多 \\(6\text{GB}\\), 但其實下載系統更新或遊戲超過好像都沒怎樣。速度的部分我就無法提供什麼心得，因為我的骨灰路由器的有線還是 \\(10/100\text{Mbps}\\).
 
+---
+
+#### 更
+
+這學年開始宿網不必再綁 `MAC` _(Media Access Control_) address 惹，申請好手動設定 static `IP` address 即可。
+
 ### VPN
 
-不少服務會限定僅有校內 `IP` address 可以使用，比如 FTP server, 校園授權軟體等等，但假若人在校外呢？？這時就可以連上學校的 VPN. 使用的軟體跟高中參加台大 NPSC 時一樣，是 Pulse Secure SSL VPN, 支援各種電腦與手機的系統。帳號不必額外申請，沿用[校園 Wi-Fi](#校園-wi-fi) 的，伺服器網域則是 `nthu.twaren.net`.
+不少服務會限定僅有校內 `IP` address 可以使用，比如 FTP server, 校園授權軟體等等，但假若人在校外呢？？這時就可以連上學校的 [VPN](https://net.nthu.edu.tw/netsys/sslvpn:info). 使用的軟體跟高中參加台大 NPSC 時一樣，是 Pulse Secure SSL VPN, 支援各種電腦與手機的系統。帳號不必額外申請，沿用[校園 Wi-Fi](#校園-wi-fi) 的，伺服器網域則是 `nthu.twaren.net`.
 
 上學期 NTHU Online Judge 好像曾經因為流量不堪負載而一度僅允許來自校內 `IP` address 連線。
 
@@ -118,9 +124,15 @@ Mac 的話只要在安裝後執行一次 VL Serializer 即可。如果是 Window
 
 我在 Office 2019 LSTC for Mac 有遇到一個問題，就是他不讓我跟其他同學及時共同編輯放在學校 OneDrive 的文件，還要我改用網頁版 Office, 所以我才改安裝 365 版。不過 KMS (Key Management Server) 有個好處就是基本上數量是不限的。
 
-### Windows
+### Windows 企業版
 
 這個我目前沒有用過，驗證方法一樣是 KMS 大量授權，但學校特別說明授權只是升級版，需要有隨機版才能升級驗證成功。但據說其實只要安裝試用版就能升級？？如果下學期羅設實驗真的非得用 Windows 不可的話，我會再研究看看。
+
+---
+
+#### 更
+
+最後邏實應該還是想辦法用 Linux, 不過有學弟來問我筆電如果已預裝 OEM 家用版 Windows 如何在不重灌的前提下升級成學校的企業版，可以先輸入對應的[臨時金鑰](https://docs.microsoft.com/zh-tw/windows-server/get-started/kms-client-activation-keys)升級上去之後，再循 KMS 認證步驟啟用。
 
 ### Symantec Endpoint Protection
 
@@ -128,4 +140,4 @@ Mac 的話只要在安裝後執行一次 VL Serializer 即可。如果是 Window
 
 ---
 
-學校還有其他軟體就部逐一介紹惹，簡單列舉包括一些輸入法、MATLAB, 以及只支援 Windows 的威力導演、華康字型、PhotoImpact, Visual Studio 等等。
+學校還有其他軟體就不逐一介紹惹，簡單列舉包括一些輸入法、MATLAB, 以及只支援 Windows 的威力導演、華康字型、PhotoImpact, Visual Studio 等等。
