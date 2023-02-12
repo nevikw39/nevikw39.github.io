@@ -7,7 +7,7 @@ description: ""
 images: ["/images/gekkeikan-jumai-daiginjo.jpeg"]
 key_words: []
 series: [酒🥃🍷🍺]
-tags: []
+tags: [D7000📷]
 title: 月桂冠 純米大吟醸
 # featured: true
 # toc: false
