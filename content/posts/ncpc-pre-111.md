@@ -7,7 +7,7 @@ description: ""
 images: ["/images/ncpc-pre-111.jpeg"]
 key_words: [National Collegiate Programming Contest]
 series: []
-tags: []
+tags: [NCPC]
 title: 111 學年度大專電腦軟體設計競賽 (NCPC) 校內預賽
 # featured: true
 # toc: false

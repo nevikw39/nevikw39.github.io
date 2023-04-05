@@ -7,7 +7,7 @@ description: ""
 images: [images/ncpc_final_110.JPG]
 key_words: [National Collegiate Programming Contest]
 series: []
-tags: []
+tags: [NCPC]
 title: 110 學年度大專電腦軟體設計競賽 (NCPC) 決賽
 # featured: true
 # toc: false
