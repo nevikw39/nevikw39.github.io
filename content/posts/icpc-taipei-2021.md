@@ -7,7 +7,7 @@ description: ""
 images: [images/icpc_taipei_2021_silver.JPG, images/icpc_taipei_2021_ballons.JPG]
 key_words: [ACM ICPC, ICPC Asia Taipei Site, 台北站, 臺北站]
 series: []
-tags: []
+tags: [ICPC]
 title: 2021 ICPC Asia Taipei Regional Contest
 # featured: true
 # toc: false
